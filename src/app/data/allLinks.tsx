@@ -1,4 +1,4 @@
-type WebsiteData = {
+export type WebsiteData = {
   id: number;
   title: string;
   site: string;
