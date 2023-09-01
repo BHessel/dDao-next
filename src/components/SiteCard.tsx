@@ -1,7 +1,6 @@
-import { AnySoaRecord } from "dns";
 import Link from "next/link";
 
-export default function Sitecard(props: { site: any; id: any }) {
+export default function Sitecard(props: any) {
   const { site, id } = props;
   return (
     <>

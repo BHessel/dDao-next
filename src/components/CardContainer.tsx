@@ -2,20 +2,27 @@
 
 import { useEffect, useState } from "react";
 import SiteCard from "@/components/SiteCard";
+import { WebsiteData } from "@/types/types";
 import {
-  WebsiteData,
   allLinks,
   filteredByDeFi,
   filteredByNFTs,
   filteredByDAOs,
   filteredByTools,
-} from "@/app/data/allLinks";
+} from "@/data/allLinks";
+
+type MenuOptions = {
+  id: string;
+  title: string;
+};
+
+type ActiveCategory = string;
 
 export default function CardContainer() {
-  const [activeCategory, setActiveCategory] = useState("");
+  const [activeCategory, setActiveCategory] = useState<ActiveCategory>("");
   const [view, setView] = useState<WebsiteData[]>([]);
 
-  const menuOptions = [
+  const menuOptions: MenuOptions[] = [
     { id: "", title: "View All" },
     { id: "defi", title: "DeFi" },
     { id: "nfts", title: "NFTs" },
@@ -49,11 +56,11 @@ export default function CardContainer() {
     <>
       <div id="menu" className="pb-8 bg-slate-200">
         <ul className="flex flex-row justify-around items-center px-10 flex-wrap">
-          {menuOptions.map((eachMenuOption, index) => {
+          {menuOptions.map((eachMenuOption) => {
             if (eachMenuOption.id === activeCategory) {
               return (
                 <li
-                  key={index}
+                  key={eachMenuOption.id}
                   className="border-b-5 bg-gradient-to-r from-cyan-500 to-blue-600 via-cyan-600 cursor-pointer"
                   onClick={() => setActiveCategory(eachMenuOption.id)}
                 >
@@ -65,7 +72,7 @@ export default function CardContainer() {
             } else {
               return (
                 <li
-                  key={index}
+                  key={eachMenuOption.id}
                   className="cursor-pointer"
                   onClick={() => setActiveCategory(eachMenuOption.id)}
                 >

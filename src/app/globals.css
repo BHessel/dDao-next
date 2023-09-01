@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.mansalva {
+  font-family: "Mansalva", cursive;
+}
+
 @media (max-width: 440px) {
   #title {
     margin-top: 20px;
