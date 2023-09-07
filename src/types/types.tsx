@@ -5,3 +5,7 @@ export type WebsiteData = {
   description: string;
   category: string;
 };
+
+export type SearchFieldProps = {
+  onSearchChange: (value: string) => void;
+};
