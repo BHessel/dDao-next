@@ -11,19 +11,33 @@ import { allLinks } from "@/data/allLinks";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  // const filteredLinks = allLinks.filter(
+  //   (link) =>
+  //     link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //     link.description.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
 
   const filteredLinks = allLinks.filter(
     (link) =>
-      link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      link.description.toLowerCase().includes(searchTerm.toLowerCase())
+      (link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        link.description.toLowerCase().includes(searchTerm.toLowerCase())) &&
+      (!selectedCategory || link.category === selectedCategory)
   );
+
+  const uniqueCategories = [...new Set(allLinks.map(link => link.category))];
 
   return (
     <main className="max-w-[100%] bg-slate-100">
       <Navbar />
       <Banner />
       <SearchField onSearchChange={setSearchTerm} />
-      <CategoryDropdown />
+      <CategoryDropdown
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+        categories={uniqueCategories}
+      />
       <CardContainer links={filteredLinks} />
       <Footer />
     </main>

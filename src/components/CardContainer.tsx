@@ -1,5 +1,4 @@
 import SiteCard from "@/components/SiteCard";
-import { WebsiteData } from "@/types/types";
 
 export default function CardContainer({ links }) {
   return (
