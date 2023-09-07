@@ -7,42 +7,42 @@ export const allLinks: WebsiteData[] = [
     site: "https://cryptofees.info/",
     description:
       "Shows top fee-earning protocols and how much in fees people are paying to use them",
-    category: "DeFi",
+    category: "Analytics",
   },
   {
     id: 2,
     title: "Ultrasound.Money",
     site: "https://ultrasound.money/",
     description: "Best site we know of for real-time Ethereum tokenomics",
-    category: "DeFi",
+    category: "Analytics",
   },
   {
     id: 3,
     title: "L2Beat.com",
     site: "https://l2beat.com/scaling/tvl/",
     description: "Shows risk profiles for Layer 2s and Bridges",
-    category: "DeFi",
+    category: "Analytics",
   },
   {
     id: 4,
     title: "MEVWatch.info",
     site: "https://www.mevwatch.info/",
     description: "Shows how many validators are censoring",
-    category: "DeFi",
+    category: "Analytics",
   },
   {
     id: 5,
     title: "Anders Brownworth",
     site: "https://andersbrownworth.com/blockchain/",
     description: "Learning how blockchains and hashing work",
-    category: "DeFi",
+    category: "Education",
   },
   {
     id: 6,
     title: "DAO Masters",
     site: "http://daomasters.xyz/",
     description: "For DAO tools and reviews",
-    category: "DeFi",
+    category: "DAO Stuff",
   },
   {
     id: 7,
@@ -50,7 +50,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://mevboost.pics",
     description:
       "Shows current stats on the decentralization of relayers in delivering blocks to Ethereum validators",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 8,
@@ -58,7 +58,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/hildobby",
     description:
       "Dope ass Dune analytics creator - just a bunch of data about Ethereum",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 9,
@@ -66,14 +66,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://tornado-warning.info/",
     description:
       "Shows tornado cash transactions and which relayer delivered them",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 10,
     title: "DeFi Llama (stablecoins)",
     site: "https://defillama.com/yields/stablecoins",
     description: "List of yields on stablecoins",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 11,
@@ -81,14 +81,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://luckystaker.com/home",
     description:
       "Tells what % chance a validator has of proposing a block over a given time",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 12,
     title: "ClientDiversity.org",
     site: "https://clientdiversity.org",
     description: "Shows the current health of Ethereum client diversity",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 13,
@@ -96,35 +96,35 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.nodewatch.io",
     description:
       "Shows current stats on the decentralization of Ethereum nodes",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 14,
     title: "Ether Nodes",
     site: "https://ethernodes.org/",
     description: "Info on node decentralization, clients, etc.",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 15,
     title: "Open Orgs",
     site: "https://openorgs.info/",
     description: "Tracks DAO treasuries",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 16,
     title: "Coin Gecko",
     site: "https://www.coingecko.com/",
     description: "Token prices and tokenomics info",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 17,
     title: "Coin Marketcap",
     site: "https://coinmarketcap.com/",
     description: "Token prices and tokenomics info",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 18,
@@ -132,7 +132,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://thedailygwei.substack.com/",
     description:
       "The Daily Gwei newsletter - updates in the Ethereum ecosystem",
-    category: "testing",
+    category: "Education - Articles",
   },
   {
     id: 19,
@@ -140,7 +140,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://ethereum.org/en/",
     description:
       "The official site for Ethereum. Great educational resources. Translated in over 50 languages!",
-    category: "testing",
+    category: "Education - Articles",
   },
   {
     id: 20,
@@ -148,21 +148,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://land.philand.xyz/",
     description:
       "show how degen you are and also learn about stuff you haven’t done yet",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 21,
     title: "Solidity, Blockchain, and Smart Contract Course",
     site: "https://youtu.be/M576WGiDBdQ",
     description: "Beginner to Expert Python Tutorial (from FreeCodeCamp.org)",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 22,
     title: "Crypto Zombies",
     site: "https://cryptozombies.io",
     description: "An OG tutorial for learning solidity",
-    category: "Tools",
+    category: "Education",
   },
   {
     id: 23,
@@ -170,49 +170,49 @@ export const allLinks: WebsiteData[] = [
     site: "https://finematics.com/",
     description:
       "Is there something too technical to wrap your head around? This is your school",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 24,
     title: "FuruCombo Tutorial by Finematics",
     site: "https://finematics.com/how-to-use-furucombo/",
     description: "Do a flash loan without having to write code",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 25,
     title: "ChainList",
     site: "https://chainlist.org",
     description: "Find live RPCs for different EVM blockchains",
-    category: "testing",
+    category: "Cool Tools",
   },
   {
     id: 26,
     title: "Earni.Fi",
     site: "https://earni.fi/",
     description: "Find out if there’s an airdrop waiting for you",
-    category: "DeFi",
+    category: "Cool Tools",
   },
   {
     id: 27,
     title: "DeFi Llama - Airdrops",
     site: "https://defillama.com/airdrops",
     description: "Potential projects that may have airdrops",
-    category: "DeFi",
+    category: "Cool Tools",
   },
   {
     id: 28,
     title: "ZapperFi",
     site: "https://zapper.fi/",
     description: "Dashboard for all your crypto stuff",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 29,
     title: "Skiff",
     site: "https://skiff.com/",
     description: "like a Web3 version of email and Google Drive",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 30,
@@ -220,7 +220,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.joinfire.xyz/",
     description:
       "A wallet extension to help you understand what you’re signing before you get rekt",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 31,
@@ -228,14 +228,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.decentra-list.com/eli5-dao",
     description:
       "ELI5 DAO (Upcoming DAO whose purpose is to review DAO tooling)",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 32,
     title: "Wrappr - Your crypto law suite",
     site: "https://docs.wrappr.wtf/",
     description: "Information on incorporating your DAO",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 33,
@@ -249,14 +249,14 @@ export const allLinks: WebsiteData[] = [
     title: "Colony YouTube Channel",
     site: "https://youtube.com/@colony3933",
     description: "Great content if you're thinking of forming a DAO",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 35,
     title: "Wonderverse",
     site: "https://app.wonderverse.xyz/login",
     description: "A place to find bounties to work on for DAOs",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 36,
@@ -264,7 +264,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.trypearl.xyz",
     description:
       "Social media based on POAPs and connecting with people who have shared experiences",
-    category: "Tools",
+    category: "Social Media",
   },
   {
     id: 37,
@@ -272,56 +272,56 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.lens.xyz",
     description:
       "Backend social media rails created by Aave - powers many of the platforms in this section",
-    category: "testing",
+    category: "Social Media",
   },
   {
     id: 38,
     title: "Phaver",
     site: "https://phaver.com",
     description: "Similar to Twitter. Built on Lens",
-    category: "testing",
+    category: "Social Media",
   },
   {
     id: 39,
     title: "Orb",
     site: "https://orb.ac",
     description: "Very similar to Twitter. Built on Lens.",
-    category: "testing",
+    category: "Social Media",
   },
   {
     id: 40,
     title: "LensTube",
     site: "https://lenstube.xyz",
     description: "Web3 version of YouTube. Built on Lens",
-    category: "testing",
+    category: "Social Media",
   },
   {
     id: 41,
     title: "Lenster",
     site: "https://lenster.xyz",
     description: "Similar to Twitter, built on Lens",
-    category: "testing",
+    category: "Social Media",
   },
   {
     id: 42,
     title: "Farcaster",
     site: "https://www.farcaster.xyz",
     description: "A non-lens web3 social media project",
-    category: "testing",
+    category: "Social Media",
   },
   {
     id: 43,
     title: "Nfty Chat",
     site: "https://nftychat.xyz",
     description: "Like a Web3 Discord",
-    category: "NFTs",
+    category: "Social Media",
   },
   {
     id: 44,
     title: "Vitalik's blog",
     site: "https://Vitalik.ca",
     description: "Vitalik's persona website where he posts his articles",
-    category: "testing",
+    category: "Education - Articles",
   },
   {
     id: 45,
@@ -329,7 +329,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://pseudotheos.mirror.xyz",
     description:
       "Pseudotheos blog about Ethereum and specifically zk stuff. Pretty technical",
-    category: "testing",
+    category: "Education - Articles",
   },
   {
     id: 46,
@@ -345,7 +345,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://revoke.cash/",
     description:
       "A tool that shows you the contracts you’ve given permission to spend your tokens and allows you to revoke those permissions",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 48,
@@ -353,7 +353,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://Zerion.io",
     description:
       "track your entire portfolio across different blockchains and wallets, or use their wallet as a centralized (decentralized) place to access defi",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 49,
@@ -361,7 +361,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.co-oplaw.org/",
     description:
       "Good information on co-ops in the United States. Not crypto-specific, but may be interesting to US DAO founders searching for how to structure.",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 50,
@@ -369,63 +369,63 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.decentralist.com",
     description:
       "All kinds of resources regarding starting a DAO, from legal discussion to DAO tooling",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 51,
     title: "dabdab Mirror articles",
     site: "https://mirror.xyz/dabdab.eth",
     description: "Great information on liquid staking derivatives",
-    category: "testing",
+    category: "Education - Articles",
   },
   {
     id: 52,
     title: "Patrick McCorry Substack Articles",
     site: "https://substack.com/profile/4881052-patrick-mccorry?utm_source=account-card",
     description: "Treasure trove of good shit written about how Ethereum works",
-    category: "DeFi",
+    category: "Education - Articles",
   },
   {
     id: 53,
     title: "ELI5 DAO",
     site: "https://www.decentralist.com/list-of-dao-tools",
     description: "List of tools to help DAOs bootstrap and operate",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 54,
     title: "Token Unlocks",
     site: "https://token.unlocks.app/?category=all",
     description: "Shows unlock schedule for different tokens",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 55,
     title: "Guide to setting up an Ethereum validator",
     site: "https://docs.google.com/spreadsheets/d/1_ciaswEZ_oAGwH9uWMTABIdDLRXzfjcoeJvpEhR-mAM/htmlview#",
     description: "what the title says",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 56,
     title: "big spreadsheet of Ethereum conferences",
     site: "https://docs.google.com/spreadsheets/d/1UJLdKW5IymgPAmKakMvCyd35dtc8IOZ04bc0fAvp8kI/edit",
     description: "what the title says",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 57,
     title: "Wrappr",
     site: "https://docs.wrappr.wtf",
     description: "A platform to mint legal NFTs, like to form an LLC",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 58,
     title: "Nouns DAO research on US legal entity formation",
     site: "https://forum.nouns.build/t/dao-entity-structures-the-una/20",
     description: "the motherload on high-level DAO entity formation in the US",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 59,
@@ -433,7 +433,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://cbeth-rates.vercel.app",
     description:
       "shows the current discount on cbEth (will probably be uninteresting post withdrawals)",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 60,
@@ -441,7 +441,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://twitter.com/boringsecdao/status/1618331733837090817?s=46&t=QCWXx8kEhc6pBAoPAoC8FA",
     description:
       "A tweet thread by Borintn Security DAO about good security practices to make sure you don’t get rekt. Thread links to articles",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 61,
@@ -449,14 +449,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://delegate.cash",
     description:
       "A tool that allows you to use a hot wallet in place of a cold wallet or an NFT you own in another wallet. Keeps valuable wallet safe while, for example claiming an airdrop that the valuable wallet is eligible for",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 62,
     title: "Odyssey DAO ",
     site: "https://www.odysseydao.com/learn",
     description: "Education on web3 stuff",
-    category: "DAOs",
+    category: "Education",
   },
   {
     id: 63,
@@ -464,7 +464,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.decentralist.com/list-of-dao-tools",
     description:
       "A DAO whose mission is to review DAO tolling protocols, review them, and explain how to use them",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 64,
@@ -472,14 +472,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.developerreport.com",
     description:
       "they analyze open-source repos to figure out how many crypto developers exist among different ecosystems",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 65,
     title: "Xer0's Rocketpool Investment Thesis",
     site: "https://www.reddit.com/r/ethfinance/comments/m3pug8/the_rocket_pool_investment_thesis/",
     description: "Rocketpool investment thesis on Reddit posted by livesmage",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 66,
@@ -487,14 +487,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.reddit.com/r/ethfinance/comments/qwbb8w/rocket_pool_investment_thesis_20/",
     description:
       "Rocketpool investment thesis on Reddit by livesmage, version 2.0",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 67,
     title: "Boodle's Rocketpool Investment Thesis v3.0",
     site: "https://www.reddit.com/r/ethfinance/comments/m4jj0i/rocketpool_investment_thesis_round_3/",
     description: "Rocketpool investment thesis on Reddit by boodle_noodle",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 68,
@@ -502,7 +502,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.reddit.com/r/ethtrader/comments/m43r38/the_rocket_pool_investment_thesis_speculative/",
     description:
       "Rocketpool investment thesis posted on Reddit by oxygenjacket",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 69,
@@ -510,28 +510,28 @@ export const allLinks: WebsiteData[] = [
     site: "https://tokenomicsexplained.com/rpl/",
     description:
       "Website that generally discusses tokenomics. This link is for a specific post related to Rocketpool",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 70,
     title: "Marceau's RPL price prediction spreadsheet",
     site: "https://docs.google.com/spreadsheets/u/0/d/1fVw5sg1-QGOH9_kPO2dHRMi9OUjhFLgwYDsyqJDAwlU/htmlview#gid=0",
     description: "Warning. This will get you bullish af",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 71,
     title: "Marceau's RPL price prediction Twitter thread",
     site: "https://twitter.com/marceaueth/status/1548489490116710409?s=46&t=UFXVdECShsG3ebmi98mPhA",
     description: "Thread about RPL price potential",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 72,
     title: "The Rocketpool Layer Zero Bull Case",
     site: "https://mirror.xyz/jasperthefriendlyghost.eth/CvGJPdUZ7Fnnpa8DsEXtL-W4FxoBoublwsmN-Im0kfg",
     description: "Jasper's post about Rocketpool integrating with Eigenlayer",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 73,
@@ -539,7 +539,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://mirror.xyz/jasperthefriendlyghost.eth/fxc6p0hF_zVj9KX1-xfo6P_3lJ6zrn2Ma2p962b54ek",
     description:
       "Jasper's post about Rocketpool potentially being used as the base layer of centralized 'staking as a service' products",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 74,
@@ -547,7 +547,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://mirror.xyz/jasperthefriendlyghost.eth/pnaLyH6W4j58vfypsOKHciF_BM5HFvTkouTd9uThesM",
     description:
       "Jasper's post about why Rocketpool is poised to gain more market share relative to all other Eth staking options",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 75,
@@ -555,14 +555,14 @@ export const allLinks: WebsiteData[] = [
       "Accellerating Validator Returns Using Rocketpool - Rocketpool Investment Thesis 4.0 by Evan Jones",
     site: "https://drive.google.com/file/d/1JXXM-QjGMXItLujUOjSb8q7pBzb6C7Md/view",
     description: "Another Rocketpool investment thesis",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 76,
     title: "Awesome Ethereum Staking Resources",
     site: "https://hackmd.io/@jyeAs_6oRjeDk2Mx5CZyBw/awesome-ethereum-staking",
     description: "The mother load of staking resources of all kinds",
-    category: "DeFi",
+    category: "Education",
   },
   {
     id: 77,
@@ -570,7 +570,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://app.push.org",
     description:
       "A crypto hub that will give you notifications whenever anything happens in protocols you are involved with",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 78,
@@ -578,7 +578,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://docs.google.com/spreadsheets/d/1UlxKC98STwN-AoonytC-qOscZ_99fAMpMvB6EfGGe9E/htmlview",
     description:
       "A spreadsheet by Jon Charbonneau to forecast Eth price, issuance, txn fees, etc based on whatever assumptions you want to input",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 79,
@@ -586,42 +586,42 @@ export const allLinks: WebsiteData[] = [
     site: "https://hackmd.io/@jyeAs_6oRjeDk2Mx5CZyBw/awesome-ethereum-staking",
     description:
       "A grand curated list of resources about Eth staking, compiled by Armagan.eth",
-    category: "testing",
+    category: "Education - Articles",
   },
   {
     id: 80,
     title: "Etherscan",
     site: "https://Etherscan.io",
     description: "most popular Ethereum block explorer. Includes testnets",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 81,
     title: "Arbiscan",
     site: "https://arbiscan.io",
     description: "Arbitrum block explorer",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 82,
     title: "Optimistic Etherscan",
     site: "https://optimistic.etherscan.io",
     description: "Optimism block explorer",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 83,
     title: "Blockscout",
     site: "https://blockscout.com",
     description: "block explorer for many blockchains, including Gnosis",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 84,
     title: "Polygonscan",
     site: "https://Polygonscan.com",
     description: "block explorer for the Polygon POS chain",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 85,
@@ -629,7 +629,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://Etherscan.io",
     description:
       "an open source block explorer that you can run yourself along with your own archive node (trustless)",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 86,
@@ -637,7 +637,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://blowfish.xyz",
     description:
       "an extension too help make sure you don’t get rekt by malicious transactions",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 87,
@@ -645,14 +645,14 @@ export const allLinks: WebsiteData[] = [
     site: "http://metacrisisdao.com",
     description:
       "a group trying to make sure crypto helps save humankind from itself",
-    category: "DAOs",
+    category: "Education",
   },
   {
     id: 88,
     title: "DAO Masters",
     site: "https://daomasters.xyz",
     description: "a page listing tons of DAO tools",
-    category: "DAOs",
+    category: "DAO Stuff",
   },
   {
     id: 89,
@@ -660,7 +660,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://ethseer.com",
     description:
       "a really cool way to visualize epochs, who proposed each block, attestation health, etc.",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 90,
@@ -668,7 +668,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://marketcapof.com",
     description:
       "Lets you check out what the price of one token would be at the market value of another token. Addictive.",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 91,
@@ -676,21 +676,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://app.coinfeeds.io/podsearcher/TheDailyGwei?query=what+is+coinbase%27s+layer+2",
     description:
       "Lets you search through TDG Refuel episodes for Sassal’s takes on whatever you want",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 92,
     title: "Blobscan",
     site: "https://www.blobscan.com",
     description: "A block explorer for blob space on the beacon chain",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 93,
     title: "Eth Wizard",
     site: "https://github.com/stake-house/eth-wizard",
     description: "a wizard for Ubuntu and Wi does to make solo staking easier",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 94,
@@ -698,21 +698,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://beaconcha.in/",
     description:
       "the website for the beacon chain. Real time data, information, and a staking calculator among other features",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 95,
     title: "Rated Network",
     site: "https://rated.network",
     description: "real time data on beacon chain validators",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 96,
     title: "Eth Staker Knowledge Base",
     site: "https://docs.ethstaker.cc/ethstaker-knowledge-base/",
     description: "All the info you could want for Eth staking",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 97,
@@ -723,11 +723,11 @@ export const allLinks: WebsiteData[] = [
     category: "NFTs",
   },
   {
-    id: 97,
+    id: 98,
     title: "Ethereum 2.0 Validator Queue",
     site: "https://validator-queue-monitoring.vercel.app",
     description: "Very simple and useful. Just what the title says.",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 99,
@@ -735,63 +735,63 @@ export const allLinks: WebsiteData[] = [
     site: "https://wenmerge.com",
     description:
       "Details on validator queue and upcoming forks. Also will notify you when you're about to propose a block.",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 100,
     title: "The Ethereum Shanghai Upgrade Dashboard",
     site: "https://query.nansen.ai/",
     description: "All kinds of real time info on Eth staking",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 101,
     title: "Eth.store",
     site: "https://beaconcha.in/ethstore",
     description: "Updated numbers on current staking rate",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 102,
     title: "LIDO Post Merge Protocol APR",
     site: "https://dune.com/LidoAnalytical/lido-execution-layer-rewards",
     description: "Up-to-date info on Lido staking",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 103,
     title: "Ratio Gang",
     site: "https://ratiogang.com",
     description: "How we’re doing on the flippening",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 104,
     title: "Starkscan",
     site: "https://starkscan.co/",
     description: "Starknet block explorer",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 105,
     title: "Gnosis Scan",
     site: "https://gnosisscan.io/",
     description: "Gnosis chain block explorer",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 106,
     title: "Rocket Scan",
     site: "https://rocketscan.io/",
     description: "Good real time info about Rocket Pool",
-    category: "DeFi",
+    category: "RocketPool",
   },
   {
     id: 107,
     title: "Builda",
     site: "https://builda.dev/",
     description: "Discover projects that are on the horizon (or post your own)",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 108,
@@ -799,14 +799,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.validatorqueue.com/",
     description:
       "Simple and useful information about the Ethereum validator entry/exit queue",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 109,
     title: "Grow the Pie",
     site: "https://www.growthepie.xyz/",
     description: "Badass site with L2 usage analytics",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 110,
@@ -814,7 +814,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://byfishh.github.io/zk-flow/",
     description:
       "Simple but effective tool letting you know how much you've been airdrop farming on zkSync",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 111,
@@ -822,14 +822,14 @@ export const allLinks: WebsiteData[] = [
     site: "<your-ENS-name-here>.eth.photos",
     description:
       "Let's you see someone's NFT collection quickly without going to an NFT trading platform",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 112,
     title: "Polygon zkEVM block explorer",
     site: "https://zkevm.polygonscan.com/",
     description: "As the title says",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 113,
@@ -837,14 +837,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://thevalueprop.io/database",
     description:
       "A huge list of projects building on crypto networks, broken down by category",
-    category: "testing",
+    category: "Aggregation",
   },
   {
     id: 114,
     title: "MEV",
     site: "https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221",
     description: "A pretty exhaustive list of great sites about MEV",
-    category: "testing",
+    category: "Aggregation",
   },
   {
     id: 115,
@@ -852,21 +852,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.blockchaincenter.net/en/there-is-no-second-best/",
     description:
       "Shows how rich Michael Saylor would be if he were an Eth maxi instead of a laser eyes",
-    category: "Tools",
+    category: "Analytics",
   },
   {
     id: 116,
     title: "The Beacon Chain Ethereum 2.0 explainer you need to read first",
     site: "https://ethos.dev/beacon-chain",
     description: "An bomb-ass explainer of how the beacon chain works",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 117,
     title: "The Inactivity Leak by Patrick McCorry",
     site: "https://www.cryptofrens.info/p/the-inactivity-leak",
     description: "An bomb-ass explainer on the inactivity leak",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 118,
@@ -874,7 +874,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://bluechip.org",
     description:
       "A website that thoroughly assesses the riskiness of different stablecoins",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 119,
@@ -889,7 +889,7 @@ export const allLinks: WebsiteData[] = [
     title: "Layer Zero Scan",
     site: "https://layerzeroscan.com",
     description: "block explorer for Layer Zero",
-    category: "testing",
+    category: "Block Explorers",
   },
   {
     id: 121,
@@ -897,14 +897,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/arixon/mev-burn",
     description:
       "Tracks Eth supply in a hypothetical world where we have MEV burn implemented",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 122,
     title: "/chat",
     site: "https://www.tx.cool/chat",
     description: "Allows you to see on-chain messages between addresses",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 123,
@@ -912,14 +912,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.reorg.pics",
     description:
       "Analytics on reorgs and missed blocks, broken down with different metrics",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 124,
     title: "Dapp no Radar",
     site: "https://dappradar.com",
     description: "Dashboard with analytics on different dapps, member curated",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 125,
@@ -927,7 +927,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://linea-tracker.netlify.app",
     description:
       "Show your activity so far on Linea to help gauge potential airdrop eligibility. Can toggle to zkSync as well.",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 126,
@@ -935,7 +935,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/niftytable/rollup-economics",
     description:
       "A dashboard by Kofi comparing revenues/costs/ profitability of the different rollups. Also, check out his whole list of Dune dashboards. It's dope.",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 127,
@@ -943,7 +943,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://x.com/liquityprotocol/status/1691845067198112218?s=46&t=1aFoxtRR7lwj_gcLIaj7cA",
     description:
       "A tweet put out on Aug 18, 2023 by Liquity taking a snapshot of major oracles and their risks and strengths",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 128,
@@ -951,7 +951,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://sylphdapps.com/validator-queue-status/",
     description:
       "A simple dashboard by mike.sylphdapps.eth showing the validator entry and exit queue",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 129,
@@ -959,21 +959,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://execution-diversity.info",
     description:
       "What the title says. Uses a different method to measure these stats than clientdiversity.org",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 130,
     title: "Bitcoin Treasuries",
     site: "https://bitcointreasuries.net",
     description: "Shows how much BTC different companies own",
-    category: "Tools",
+    category: "Analysis",
   },
   {
     id: 131,
     title: "Blobspace",
     site: "https://domothy.com/blobspace/",
     description: "Banger explainer on EIP 4844 i.e. protodanksharding",
-    category: "testing",
+    category: "Education",
   },
   {
     id: 132,
@@ -981,22 +981,6 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/arixon/rocketpool-rpl",
     description:
       "Dune dashboard by arixon.eth with some interesting insight on support levels for the RPL token",
-    category: "DeFi",
+    category: "RocketPool",
   },
 ];
-
-export const filteredByDeFi: WebsiteData[] = allLinks.filter(
-  (eachObj: WebsiteData) => eachObj.category === "DeFi"
-);
-
-export const filteredByNFTs: WebsiteData[] = allLinks.filter(
-  (eachObj: WebsiteData) => eachObj.category === "NFTs"
-);
-
-export const filteredByDAOs: WebsiteData[] = allLinks.filter(
-  (eachObj: WebsiteData) => eachObj.category === "DAOs"
-);
-
-export const filteredByTools: WebsiteData[] = allLinks.filter(
-  (eachObj: WebsiteData) => eachObj.category === "Tools"
-);
