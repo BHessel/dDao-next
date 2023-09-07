@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <main className="max-w-[100%] bg-slate-100">
+    <main className="max-w-[100%] min-h-screen bg-slate-200">
       <Navbar />
       <Banner />
       <SearchField onSearchChange={setSearchTerm} />
@@ -38,7 +38,7 @@ export default function Home() {
         clearCategory={clearCategory}
       />
       <CardContainer links={filteredLinks} />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

@@ -7,12 +7,14 @@ export default function CategoryDropdown(props) {
     props;
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center bg-slate-200">
       <Listbox value={selectedCategory} onChange={setSelectedCategory}>
-        <div className="relative py-3 w-1/4">
+        <div className="relative py-4 w-1/4">
           <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
             <span className="block truncate">
-              {selectedCategory || "Select a Category"}
+              {selectedCategory || (
+                <span className="text-slate-500">Select a Category</span>
+              )}
             </span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
               <ChevronUpDownIcon
@@ -61,7 +63,7 @@ export default function CategoryDropdown(props) {
         </div>
       </Listbox>
       <span
-        className="ml-4 cursor-pointer text-slate-400 hover:underline"
+        className="ml-4 cursor-pointer text-slate-400 text-small hover:underline"
         onClick={clearCategory}
       >
         Clear Selection

@@ -4,12 +4,12 @@ type SearchFieldProps = {
 
 export default function SearchField({ onSearchChange }: SearchFieldProps) {
   return (
-    <div className="flex justify-center py-3">
+    <div className="flex justify-center bg-slate-200">
       <input
         type="text"
         placeholder="Search..."
         onChange={(e) => onSearchChange(e.target.value)}
-        className="h-10 w-1/2"
+        className="h-10 w-1/2 shadow-md placeholder:pl-4 placeholder:text-slate-500"
       />
     </div>
   );

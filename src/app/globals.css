@@ -9,10 +9,6 @@
 }
 
 @media (max-width: 440px) {
-  #title {
-    margin-top: 20px;
-  }
-
   #menu {
     padding-top: 32px;
   }
