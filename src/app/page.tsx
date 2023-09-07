@@ -13,12 +13,6 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
 
-  // const filteredLinks = allLinks.filter(
-  //   (link) =>
-  //     link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-  //     link.description.toLowerCase().includes(searchTerm.toLowerCase())
-  // );
-
   const filteredLinks = allLinks.filter(
     (link) =>
       (link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -27,6 +21,10 @@ export default function Home() {
   );
 
   const uniqueCategories = [...new Set(allLinks.map((link) => link.category))];
+
+  async function clearCategory() {
+    setSelectedCategory("");
+  }
 
   return (
     <main className="max-w-[100%] bg-slate-100">
@@ -37,6 +35,7 @@ export default function Home() {
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
         categories={uniqueCategories}
+        clearCategory={clearCategory}
       />
       <CardContainer links={filteredLinks} />
       <Footer />
