@@ -2,7 +2,14 @@ import { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
-export default function CategoryDropdown(props) {
+type CategoryDropdownProps = {
+  selectedCategory: string;
+  setSelectedCategory: (value: string) => void;
+  categories: string[];
+  clearCategory: () => void;
+};
+
+export default function CategoryDropdown(props: CategoryDropdownProps) {
   const { selectedCategory, setSelectedCategory, categories, clearCategory } =
     props;
 

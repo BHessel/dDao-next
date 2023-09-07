@@ -4,7 +4,7 @@ import { useState } from "react";
 import Banner from "@/components/Banner";
 import CardContainer from "@/components/CardContainer";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import SearchField from "@/components/SearchField";
 import CategoryDropdown from "@/components/CategoryDropdown";
 import { allLinks } from "@/data/allLinks";

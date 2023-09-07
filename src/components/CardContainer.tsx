@@ -1,6 +1,11 @@
 import SiteCard from "@/components/SiteCard";
+import { WebsiteData } from "@/types/types";
 
-export default function CardContainer({ links }) {
+type CardContainerProps = {
+  links: WebsiteData[];
+};
+
+export default function CardContainer({ links }: CardContainerProps) {
   return (
     <>
       <div className="px-10 overflow-y-auto bg-slate-200">
