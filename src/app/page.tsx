@@ -26,7 +26,7 @@ export default function Home() {
       (!selectedCategory || link.category === selectedCategory)
   );
 
-  const uniqueCategories = [...new Set(allLinks.map(link => link.category))];
+  const uniqueCategories = [...new Set(allLinks.map((link) => link.category))];
 
   return (
     <main className="max-w-[100%] bg-slate-100">

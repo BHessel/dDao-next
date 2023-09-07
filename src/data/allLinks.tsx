@@ -132,7 +132,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://thedailygwei.substack.com/",
     description:
       "The Daily Gwei newsletter - updates in the Ethereum ecosystem",
-    category: "",
+    category: "testing",
   },
   {
     id: 19,
@@ -140,7 +140,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://ethereum.org/en/",
     description:
       "The official site for Ethereum. Great educational resources. Translated in over 50 languages!",
-    category: "",
+    category: "testing",
   },
   {
     id: 20,
@@ -155,7 +155,7 @@ export const allLinks: WebsiteData[] = [
     title: "Solidity, Blockchain, and Smart Contract Course",
     site: "https://youtu.be/M576WGiDBdQ",
     description: "Beginner to Expert Python Tutorial (from FreeCodeCamp.org)",
-    category: "",
+    category: "testing",
   },
   {
     id: 22,
@@ -170,21 +170,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://finematics.com/",
     description:
       "Is there something too technical to wrap your head around? This is your school",
-    category: "",
+    category: "testing",
   },
   {
     id: 24,
     title: "FuruCombo Tutorial by Finematics",
     site: "https://finematics.com/how-to-use-furucombo/",
     description: "Do a flash loan without having to write code",
-    category: "",
+    category: "testing",
   },
   {
     id: 25,
     title: "ChainList",
     site: "https://chainlist.org",
     description: "Find live RPCs for different EVM blockchains",
-    category: "",
+    category: "testing",
   },
   {
     id: 26,
@@ -272,42 +272,42 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.lens.xyz",
     description:
       "Backend social media rails created by Aave - powers many of the platforms in this section",
-    category: "",
+    category: "testing",
   },
   {
     id: 38,
     title: "Phaver",
     site: "https://phaver.com",
     description: "Similar to Twitter. Built on Lens",
-    category: "",
+    category: "testing",
   },
   {
     id: 39,
     title: "Orb",
     site: "https://orb.ac",
     description: "Very similar to Twitter. Built on Lens.",
-    category: "",
+    category: "testing",
   },
   {
     id: 40,
     title: "LensTube",
     site: "https://lenstube.xyz",
     description: "Web3 version of YouTube. Built on Lens",
-    category: "",
+    category: "testing",
   },
   {
     id: 41,
     title: "Lenster",
     site: "https://lenster.xyz",
     description: "Similar to Twitter, built on Lens",
-    category: "",
+    category: "testing",
   },
   {
     id: 42,
     title: "Farcaster",
     site: "https://www.farcaster.xyz",
     description: "A non-lens web3 social media project",
-    category: "",
+    category: "testing",
   },
   {
     id: 43,
@@ -321,7 +321,7 @@ export const allLinks: WebsiteData[] = [
     title: "Vitalik's blog",
     site: "https://Vitalik.ca",
     description: "Vitalik's persona website where he posts his articles",
-    category: "",
+    category: "testing",
   },
   {
     id: 45,
@@ -329,7 +329,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://pseudotheos.mirror.xyz",
     description:
       "Pseudotheos blog about Ethereum and specifically zk stuff. Pretty technical",
-    category: "",
+    category: "testing",
   },
   {
     id: 46,
@@ -376,7 +376,7 @@ export const allLinks: WebsiteData[] = [
     title: "dabdab Mirror articles",
     site: "https://mirror.xyz/dabdab.eth",
     description: "Great information on liquid staking derivatives",
-    category: "",
+    category: "testing",
   },
   {
     id: 52,
@@ -404,14 +404,14 @@ export const allLinks: WebsiteData[] = [
     title: "Guide to setting up an Ethereum validator",
     site: "https://docs.google.com/spreadsheets/d/1_ciaswEZ_oAGwH9uWMTABIdDLRXzfjcoeJvpEhR-mAM/htmlview#",
     description: "what the title says",
-    category: "",
+    category: "testing",
   },
   {
     id: 56,
     title: "big spreadsheet of Ethereum conferences",
     site: "https://docs.google.com/spreadsheets/d/1UJLdKW5IymgPAmKakMvCyd35dtc8IOZ04bc0fAvp8kI/edit",
     description: "what the title says",
-    category: "",
+    category: "testing",
   },
   {
     id: 57,
@@ -441,7 +441,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://twitter.com/boringsecdao/status/1618331733837090817?s=46&t=QCWXx8kEhc6pBAoPAoC8FA",
     description:
       "A tweet thread by Borintn Security DAO about good security practices to make sure you don’t get rekt. Thread links to articles",
-    category: "",
+    category: "testing",
   },
   {
     id: 61,
@@ -586,42 +586,42 @@ export const allLinks: WebsiteData[] = [
     site: "https://hackmd.io/@jyeAs_6oRjeDk2Mx5CZyBw/awesome-ethereum-staking",
     description:
       "A grand curated list of resources about Eth staking, compiled by Armagan.eth",
-    category: "",
+    category: "testing",
   },
   {
     id: 80,
     title: "Etherscan",
     site: "https://Etherscan.io",
     description: "most popular Ethereum block explorer. Includes testnets",
-    category: "",
+    category: "testing",
   },
   {
     id: 81,
     title: "Arbiscan",
     site: "https://arbiscan.io",
     description: "Arbitrum block explorer",
-    category: "",
+    category: "testing",
   },
   {
     id: 82,
     title: "Optimistic Etherscan",
     site: "https://optimistic.etherscan.io",
     description: "Optimism block explorer",
-    category: "",
+    category: "testing",
   },
   {
     id: 83,
     title: "Blockscout",
     site: "https://blockscout.com",
     description: "block explorer for many blockchains, including Gnosis",
-    category: "",
+    category: "testing",
   },
   {
     id: 84,
     title: "Polygonscan",
     site: "https://Polygonscan.com",
     description: "block explorer for the Polygon POS chain",
-    category: "",
+    category: "testing",
   },
   {
     id: 85,
@@ -629,7 +629,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://Etherscan.io",
     description:
       "an open source block explorer that you can run yourself along with your own archive node (trustless)",
-    category: "",
+    category: "testing",
   },
   {
     id: 86,
@@ -676,14 +676,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://app.coinfeeds.io/podsearcher/TheDailyGwei?query=what+is+coinbase%27s+layer+2",
     description:
       "Lets you search through TDG Refuel episodes for Sassal’s takes on whatever you want",
-    category: "",
+    category: "testing",
   },
   {
     id: 92,
     title: "Blobscan",
     site: "https://www.blobscan.com",
     description: "A block explorer for blob space on the beacon chain",
-    category: "",
+    category: "testing",
   },
   {
     id: 93,
@@ -698,7 +698,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://beaconcha.in/",
     description:
       "the website for the beacon chain. Real time data, information, and a staking calculator among other features",
-    category: "",
+    category: "testing",
   },
   {
     id: 95,
@@ -712,7 +712,7 @@ export const allLinks: WebsiteData[] = [
     title: "Eth Staker Knowledge Base",
     site: "https://docs.ethstaker.cc/ethstaker-knowledge-base/",
     description: "All the info you could want for Eth staking",
-    category: "",
+    category: "testing",
   },
   {
     id: 97,
@@ -770,14 +770,14 @@ export const allLinks: WebsiteData[] = [
     title: "Starkscan",
     site: "https://starkscan.co/",
     description: "Starknet block explorer",
-    category: "",
+    category: "testing",
   },
   {
     id: 105,
     title: "Gnosis Scan",
     site: "https://gnosisscan.io/",
     description: "Gnosis chain block explorer",
-    category: "",
+    category: "testing",
   },
   {
     id: 106,
@@ -829,7 +829,7 @@ export const allLinks: WebsiteData[] = [
     title: "Polygon zkEVM block explorer",
     site: "https://zkevm.polygonscan.com/",
     description: "As the title says",
-    category: "",
+    category: "testing",
   },
   {
     id: 113,
@@ -837,14 +837,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://thevalueprop.io/database",
     description:
       "A huge list of projects building on crypto networks, broken down by category",
-    category: "",
+    category: "testing",
   },
   {
     id: 114,
     title: "MEV",
     site: "https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221",
     description: "A pretty exhaustive list of great sites about MEV",
-    category: "",
+    category: "testing",
   },
   {
     id: 115,
@@ -859,14 +859,14 @@ export const allLinks: WebsiteData[] = [
     title: "The Beacon Chain Ethereum 2.0 explainer you need to read first",
     site: "https://ethos.dev/beacon-chain",
     description: "An bomb-ass explainer of how the beacon chain works",
-    category: "",
+    category: "testing",
   },
   {
     id: 117,
     title: "The Inactivity Leak by Patrick McCorry",
     site: "https://www.cryptofrens.info/p/the-inactivity-leak",
     description: "An bomb-ass explainer on the inactivity leak",
-    category: "",
+    category: "testing",
   },
   {
     id: 118,
@@ -889,7 +889,7 @@ export const allLinks: WebsiteData[] = [
     title: "Layer Zero Scan",
     site: "https://layerzeroscan.com",
     description: "block explorer for Layer Zero",
-    category: "",
+    category: "testing",
   },
   {
     id: 121,
@@ -973,7 +973,7 @@ export const allLinks: WebsiteData[] = [
     title: "Blobspace",
     site: "https://domothy.com/blobspace/",
     description: "Banger explainer on EIP 4844 i.e. protodanksharding",
-    category: "",
+    category: "testing",
   },
   {
     id: 132,
