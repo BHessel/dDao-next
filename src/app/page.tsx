@@ -1,11 +1,13 @@
+"use client";
+
 import { useState } from "react";
 import Banner from "@/components/Banner";
 import CardContainer from "@/components/CardContainer";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SearchField from "@/components/SearchField";
+import CategoryDropdown from "@/components/CategoryDropdown";
 import { allLinks } from "@/data/allLinks";
-import { SearchFieldProps } from "@/types/types";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -20,8 +22,9 @@ export default function Home() {
     <main className="max-w-[100%] bg-slate-100">
       <Navbar />
       <Banner />
-      <SearchField onSearchChange={setSearchTerm}/>
-      <CardContainer links={filteredLinks}/>
+      <SearchField onSearchChange={setSearchTerm} />
+      <CategoryDropdown />
+      <CardContainer links={filteredLinks} />
       <Footer />
     </main>
   );
