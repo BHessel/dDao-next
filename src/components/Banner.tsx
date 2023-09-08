@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="py-10 px-10 flex flex-col items-center justify-center bg-slate-200">
+    <div className="py-5 sm:py-8 px-10 flex flex-col items-center justify-center text-center bg-slate-200">
       <div id="title" className="text-7xl font-semibold">
         ETH Links
       </div>

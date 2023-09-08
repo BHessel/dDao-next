@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
@@ -16,7 +16,7 @@ export default function CategoryDropdown(props: CategoryDropdownProps) {
   return (
     <div className="flex justify-center items-center bg-slate-200">
       <Listbox value={selectedCategory} onChange={setSelectedCategory}>
-        <div className="relative py-4 w-1/4">
+        <div className="relative py-4 w-2/4 sm:w-1/4">
           <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
             <span className="block truncate">
               {selectedCategory || (
