@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +7,10 @@
 
 .mansalva {
   font-family: "Mansalva", cursive;
+}
+
+.noto-sans {
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 @media (max-width: 440px) {

@@ -190,7 +190,7 @@ export const allLinks: WebsiteData[] = [
     id: 26,
     title: "Earni.Fi",
     site: "https://earni.fi/",
-    description: "Find out if there’s an airdrop waiting for you",
+    description: "Find out if there's an airdrop waiting for you",
     category: "Cool Tools",
   },
   {
@@ -344,7 +344,7 @@ export const allLinks: WebsiteData[] = [
     title: "Revoke",
     site: "https://revoke.cash/",
     description:
-      "A tool that shows you the contracts you’ve given permission to spend your tokens and allows you to revoke those permissions",
+      "A tool that shows you the contracts you've given permission to spend your tokens and allows you to revoke those permissions",
     category: "Cool Tools",
   },
   {
