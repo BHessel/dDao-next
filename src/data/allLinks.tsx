@@ -337,7 +337,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://nftlossharvestooor.com/app",
     description:
       "A site that will allow you to sell NFTs for next to nothing if you’d like to write them off on your taxes. And then if you regret it later, you can buy them back here for the same price!: https://sylphdapps.com/nft-repurchasooor/",
-    category: "Tools",
+    category: "Cool Tools",
   },
   {
     id: 47,
