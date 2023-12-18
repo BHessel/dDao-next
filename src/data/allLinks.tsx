@@ -1057,6 +1057,14 @@ export const allLinks: WebsiteData[] = [
   },
   {
     id: 143,
+    title: "Meditations on Moloch",
+    site: "https://slatestarcodex.com/2014/07/30/meditations-on-moloch/",
+    description:
+      "Scott Alexander's influential piece on Moloch, the human coordination traps that have plagued humanity throughout time and the beast that crypto seeks to help slay",
+    category: "Fundamental Crypto Reading",
+  },
+  {
+    id: 144,
     title: "Eth Home Staking Guide Designed For the Layman by @Stakesaurus",
     site: "https://embeds.beehiiv.com/d1453b78-cb4d-4c5b-9359-2d456f5972bf",
     description:
@@ -1064,7 +1072,7 @@ export const allLinks: WebsiteData[] = [
     category: "Education",
   },
   {
-    id: 144,
+    id: 145,
     title: "RWA.xyz",
     site: "https://rwa.xyz",
     description:
@@ -1072,7 +1080,7 @@ export const allLinks: WebsiteData[] = [
     category: "Lists",
   },
   {
-    id: 145,
+    id: 146,
     title: "Ether Clients",
     site: "https://etherclients.com",
     description:
@@ -1080,21 +1088,21 @@ export const allLinks: WebsiteData[] = [
     category: "Analytics",
   },
   {
-    id: 146,
+    id: 147,
     title: "Parsec",
     site: "https://parsec.fi",
     description: "A fancy block explorer/dashboard that spans multiple chains",
     category: "Analytics",
   },
   {
-    id: 147,
+    id: 148,
     title: "Ethernow",
     site: "https://ethernow.xyz",
     description: "A dope dashboard by Blocknative showing the current mempool",
     category: "Analytics",
   },
   {
-    id: 148,
+    id: 149,
     title: "DefiCalendar",
     site: "https://link3.to/deficalendar",
     description:
@@ -1102,7 +1110,7 @@ export const allLinks: WebsiteData[] = [
     category: "Airdrops",
   },
   {
-    id: 149,
+    id: 150,
     title: "Ethernets",
     site: "https://ethernets.io",
     description:
@@ -1110,14 +1118,14 @@ export const allLinks: WebsiteData[] = [
     category: "Analytics",
   },
   {
-    id: 150,
+    id: 151,
     title: "Solana Beach",
     site: "https://solanabeach.io",
     description: "A dashboard on Solana transactions, validators, nodes, etc.",
     category: "Analytics",
   },
   {
-    id: 151,
+    id: 152,
     title: "Just DAO It",
     site: "https://www.youtube.com/@midao",
     description:
@@ -1125,7 +1133,7 @@ export const allLinks: WebsiteData[] = [
     category: "DAO Stuff",
   },
   {
-    id: 152,
+    id: 153,
     title: "MIDAO",
     site: "https://www.midao.org/",
     description:
@@ -1133,7 +1141,7 @@ export const allLinks: WebsiteData[] = [
     category: "DAO Stuff",
   },
   {
-    id: 153,
+    id: 154,
     title: "Primo Data",
     site: "https://www.primodata.org/blockchain-data",
     description:
