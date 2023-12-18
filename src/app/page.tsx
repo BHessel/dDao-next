@@ -16,10 +16,11 @@ export default function Home() {
   const filteredLinks = allLinks.filter(
     (link) =>
       //filtering by input value
-      (link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        link.description.toLowerCase().includes(searchTerm.toLowerCase())) &&
-      //filtering by category
-      (!selectedCategory || link.category === selectedCategory)
+      link.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      link.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (link.site.toLowerCase().includes(searchTerm.toLowerCase()) &&
+        //filtering by category
+        (!selectedCategory || link.category === selectedCategory))
   );
 
   const uniqueCategories = [...new Set(allLinks.map((link) => link.category))];

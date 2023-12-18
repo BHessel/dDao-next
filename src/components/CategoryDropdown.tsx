@@ -70,7 +70,7 @@ export default function CategoryDropdown(props: CategoryDropdownProps) {
         </div>
       </Listbox>
       <span
-        className="ml-4 cursor-pointer text-slate-400 text-small hover:underline"
+        className="ml-4 cursor-pointer text-slate-500 text-small hover:underline"
         onClick={clearCategory}
       >
         Clear Selection
