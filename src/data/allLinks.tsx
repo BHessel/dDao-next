@@ -804,7 +804,7 @@ export const allLinks: WebsiteData[] = [
   },
   {
     id: 109,
-    title: "Grow the Pie",
+    title: "growthepie",
     site: "https://www.growthepie.xyz/",
     description: "Badass site with L2 usage analytics",
     category: "Analytics",
@@ -1036,7 +1036,7 @@ export const allLinks: WebsiteData[] = [
   },
   {
     id: 140,
-    title: "Ethereum Whitelaper",
+    title: "Ethereum Whitepaper",
     site: "https://ethereum.org/en/whitepaper/",
     description: "Vitalik's original whitepaper",
     category: "Fundamental Crypto Reading",
