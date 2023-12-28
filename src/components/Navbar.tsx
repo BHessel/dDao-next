@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import ethSVG from "../../public/eth-glyph-colored.svg";
 
 interface NavbarProps {
   ethPrice: string;
@@ -13,7 +15,10 @@ export default function Navbar({ ethPrice }: NavbarProps) {
       <span className="absolute top-16 left-[184px] text-slate-100 text-base noto-sans">
         Presents...
       </span>
-      <div className="text-white">{ethPrice}</div>
+      <div className="flex flex-row justify-center items-center">
+        <Image src={ethSVG} alt="ETH Price: " width={20} height={20} />
+        <div className="text-slate-100 pl-2">{ethPrice} USD</div>
+      </div>
     </nav>
   );
 }
