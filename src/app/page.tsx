@@ -1,10 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Banner from "@/components/Banner";
 import CardContainer from "@/components/CardContainer";
 import Navbar from "@/components/Navbar";
-// import Footer from "@/components/Footer";
 import SearchField from "@/components/SearchField";
 import CategoryDropdown from "@/components/CategoryDropdown";
 import { allLinks } from "@/data/allLinks";
@@ -12,6 +11,21 @@ import { allLinks } from "@/data/allLinks";
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [ethPrice, setEthPrice] = useState("");
+
+  useEffect(() => {
+    async function fetchEthPrice() {
+      const response = await fetch("/api/ethPrice", {
+        headers: { "Cache-Control": "no-cache" },
+      });
+      const data = await response.json();
+      console.log("Ethereum Price: ", data.ethusd);
+      setEthPrice(parseFloat(data.ethusd).toFixed(2));
+    }
+    fetchEthPrice();
+    const timingInterval = setInterval(fetchEthPrice, 60000);
+    return () => clearInterval(timingInterval);
+  }, []);
 
   const filteredLinks = allLinks.filter(
     (link) =>
@@ -31,7 +45,7 @@ export default function Home() {
 
   return (
     <main className="max-w-[100%] min-h-screen bg-slate-200">
-      <Navbar />
+      <Navbar ethPrice={ethPrice} />
       <Banner />
       <SearchField onSearchChange={setSearchTerm} />
       <CategoryDropdown
@@ -41,7 +55,6 @@ export default function Home() {
         clearCategory={clearCategory}
       />
       <CardContainer links={filteredLinks} />
-      {/* <Footer /> */}
     </main>
   );
 }
