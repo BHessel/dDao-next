@@ -17,7 +17,9 @@ export default function Navbar({ ethPrice }: NavbarProps) {
       </span>
       <div className="flex flex-row justify-center items-center">
         <Image src={ethSVG} alt="ETH Price: " width={20} height={20} />
-        <div className="text-slate-100 pl-2">{ethPrice} USD</div>
+        <div className="text-slate-100 pl-2">
+          {!ethPrice ? "----.--" : ethPrice} USD
+        </div>
       </div>
     </nav>
   );
