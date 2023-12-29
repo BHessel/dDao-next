@@ -17,11 +17,13 @@ export default function Home() {
     async function fetchEthPrice() {
       const response = await fetch("/api/ethPrice");
       const data = await response.json();
-      console.log("Ethereum Price: ", data.ethusd);
-      setEthPrice(parseFloat(data.ethusd).toFixed(2));
+      console.log("Package : ", data);
+      console.log("Ethereum Price: ", data.ethPrice);
+      console.log("Ethereum Time: ", data.ethUsdTime);
+      setEthPrice(parseFloat(data.ethPrice).toFixed(2));
     }
     fetchEthPrice();
-    const intervalId = setInterval(fetchEthPrice, 60000);
+    const intervalId = setInterval(fetchEthPrice, 30000);
     return () => clearInterval(intervalId);
   }, []);
 

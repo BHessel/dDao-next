@@ -9,15 +9,14 @@ export async function GET(request: NextRequest) {
     const response = await fetch(url);
     const data = await response.json();
 
-    const path = request.nextUrl.searchParams.get("path") || "/";
+    const path = "/api/ethPrice";
     revalidatePath(path);
-    // Assuming the Etherscan API returns the price in a 'result' object
-    return new Response(JSON.stringify(data.result), {
-      status: 200,
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "no-store, max-age=0",
-      },
+
+    console.log("ROUTE ETH PRICE: ", data.result.ethusd);
+
+    return NextResponse.json({
+      ethPrice: data.result.ethusd,
+      ethUsdTime: data.result.ethusd_timestamp,
     });
   } catch (error) {
     console.error("Error fetching Ethereum price:", error);
