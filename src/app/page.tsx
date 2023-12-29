@@ -12,11 +12,12 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [ethPrice, setEthPrice] = useState("");
-
+  
   useEffect(() => {
     async function fetchEthPrice() {
       const response = await fetch("/api/ethPrice", {
         headers: { "Cache-Control": "no-cache" },
+        next: { revalidate: 60 },
       });
       const data = await response.json();
       console.log("Ethereum Price: ", data.ethusd);
