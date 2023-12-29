@@ -12,20 +12,17 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [ethPrice, setEthPrice] = useState("");
-  
+
   useEffect(() => {
     async function fetchEthPrice() {
-      const response = await fetch("/api/ethPrice", {
-        headers: { "Cache-Control": "no-cache" },
-        next: { revalidate: 60 },
-      });
+      const response = await fetch("/api/ethPrice");
       const data = await response.json();
       console.log("Ethereum Price: ", data.ethusd);
       setEthPrice(parseFloat(data.ethusd).toFixed(2));
     }
     fetchEthPrice();
-    const timingInterval = setInterval(fetchEthPrice, 60000);
-    return () => clearInterval(timingInterval);
+    const intervalId = setInterval(fetchEthPrice, 60000);
+    return () => clearInterval(intervalId);
   }, []);
 
   const filteredLinks = allLinks.filter(
