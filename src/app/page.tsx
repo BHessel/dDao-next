@@ -17,8 +17,10 @@ export default function Home() {
     async function fetchEthPrice() {
       const response = await fetch("/api/ethPrice");
       const data = await response.json();
-      console.log("Ethereum Price: ", data.ethusd);
-      setEthPrice(parseFloat(data.ethusd).toFixed(2));
+      console.log("Package: ", data);
+      console.log("Ethereum Price: ", data.ethPrice);
+      console.log("Timestamp: ", data.timestamp);
+      setEthPrice(parseFloat(data.ethPrice).toFixed(2));
     }
     fetchEthPrice();
     const intervalId = setInterval(fetchEthPrice, 90000);
