@@ -23,7 +23,7 @@ export default function Home() {
       setEthPrice(parseFloat(data.ethPrice).toFixed(2));
     }
     fetchEthPrice();
-    const intervalId = setInterval(fetchEthPrice, 90000);
+    const intervalId = setInterval(fetchEthPrice, 60000);
     return () => clearInterval(intervalId);
   }, []);
 
