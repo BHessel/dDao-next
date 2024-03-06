@@ -1148,4 +1148,18 @@ export const allLinks: WebsiteData[] = [
       "A list of projects working on crypto data and analysis. Also has a section for AI projects.",
     category: "Lists",
   },
+  {
+    id: 155,
+    title: "testingD",
+    site: "www.google.com",
+    description: "Magic crypto site",
+    category: "Lists"
+  },
+  {
+    id: 156,
+    title: "testing2",
+    site: "www.google.com",
+    description: "Magic crypto site",
+    category: "Lists"
+  }
 ];
