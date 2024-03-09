@@ -17,9 +17,6 @@ export default function Home() {
     async function fetchEthPrice() {
       const response = await fetch("/api/ethPrice");
       const data = await response.json();
-      console.log("Package: ", data);
-      console.log("Ethereum Price: ", data.ethPrice);
-      console.log("Timestamp: ", data.timestamp);
       setEthPrice(parseFloat(data.ethPrice).toFixed(2));
     }
     fetchEthPrice();
@@ -34,7 +31,7 @@ export default function Home() {
         link.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
         link.site.toLowerCase().includes(searchTerm.toLowerCase())) &&
       //filtering by category
-      (!selectedCategory || link.category === selectedCategory)
+      (!selectedCategory || link.category.includes(selectedCategory))
   );
 
   const uniqueCategories = [...new Set(allLinks.map((link) => link.category))];

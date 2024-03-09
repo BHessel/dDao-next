@@ -3,5 +3,5 @@ export type WebsiteData = {
   title: string;
   site: string;
   description: string;
-  category: string;
+  category: string[];
 };
