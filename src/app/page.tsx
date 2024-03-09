@@ -34,7 +34,7 @@ export default function Home() {
       (!selectedCategory || link.category.includes(selectedCategory))
   );
 
-  const uniqueCategories = [...new Set(allLinks.map((link) => link.category))];
+  const uniqueCategories = [...new Set(allLinks.flatMap((link) => link.category))];
 
   async function clearCategory() {
     setSelectedCategory("");
