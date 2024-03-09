@@ -1161,5 +1161,12 @@ export const allLinks: WebsiteData[] = [
     site: "www.google.com",
     description: "Magic crypto site",
     category: "Lists"
-  }
+  },
+  {
+    id: 157,
+    title: "fartRocket",
+    site: "www.google.com",
+    description: "Magic fart site",
+    category: "Education"
+  },
 ];
