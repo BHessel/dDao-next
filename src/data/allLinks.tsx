@@ -1153,13 +1153,13 @@ export const allLinks: WebsiteData[] = [
     title: "testingD",
     site: "www.google.com",
     description: "Magic crypto site",
-    category: ["Lists"]
+    category: ["Lists"],
   },
   {
     id: 156,
     title: "YouTubeLUNATIC",
     site: "www.google.com",
     description: "Magic crypto site",
-    category: ["Lists"]
+    category: ["Lists", "DAO Stuff", "Analytics"],
   },
 ];
