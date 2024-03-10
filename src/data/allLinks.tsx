@@ -7,28 +7,28 @@ export const allLinks: WebsiteData[] = [
     site: "https://cryptofees.info/",
     description:
       "Shows top fee-earning protocols and how much in fees people are paying to use them. Also, at the top there is a list of affiliated sites with great analytics, like how much money each protocol is printing each day to secure itself, etc.",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 2,
     title: "Ultrasound.Money",
     site: "https://ultrasound.money/",
     description: "Best site for real-time Ethereum tokenomics",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 3,
     title: "L2Beat",
     site: "https://l2beat.com/scaling/tvl/",
     description: "Shows risk profiles for Layer 2s and Bridges",
-    category: ["Analytics"],
+    category: ["Analytics - L2s", "Analytics - Bridges"],
   },
   {
     id: 4,
     title: "MEV Watch",
     site: "https://www.mevwatch.info/",
     description: "Shows how many validators are censoring",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes", "Analytics - Censorship"],
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://mevboost.pics",
     description:
       "Shows current stats on the decentralization of relayers and builders in delivering blocks to Ethereum validators.",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 8,
@@ -58,7 +58,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/hildobby",
     description:
       "Dope ass Dune analytics creator - just a bunch of data about Ethereum",
-    category: ["Analytics"],
+    category: ["Analytics - Other”, “Analytics - LSTs"],
   },
   {
     id: 9,
@@ -66,7 +66,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://tornado.pics",
     description:
       "Shows tornado cash transactions and which relayer delivered them",
-    category: ["Analytics"],
+    category: ["Analytics - Censorship"],
   },
   {
     id: 10,
@@ -74,7 +74,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://defillama.com",
     description:
       "Gargantuan trove of multi chain information on yields, airdrop opportunities, liquidations, stablecoins, hacks, and everything in between",
-    category: ["Analytics"],
+    category: ["Analytics - Other", "Analytics - Stablecoins"],
   },
   {
     id: 11,
@@ -82,14 +82,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://luckystaker.com/home",
     description:
       "Tells what % chance a validator has of proposing a block over a given time",
-    category: ["Analytics"],
+    category: ["Analytics - Staking"],
   },
   {
     id: 12,
     title: "ClientDiversity.org",
     site: "https://clientdiversity.org",
     description: "Shows the current health of Ethereum client diversity",
-    category: ["Analytics"],
+    category: ["Analytics - Client Diversity"],
   },
   {
     id: 13,
@@ -97,35 +97,35 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.nodewatch.io",
     description:
       "Shows current stats on the decentralization of Ethereum nodes",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes", "Analytics - Client Diversity"],
   },
   {
     id: 14,
     title: "Ether Nodes",
     site: "https://ethernodes.org/",
     description: "Info on node decentralization, clients, etc.",
-    category: ["Analytics"],
+    category: ["Analytics - Client Diversity"],
   },
   {
     id: 15,
     title: "Open Orgs",
     site: "https://openorgs.info/",
     description: "Tracks DAO treasuries",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 16,
     title: "Coin Gecko",
     site: "https://www.coingecko.com/",
     description: "Token prices and tokenomics info",
-    category: ["Analytics"],
+    category: ["Analytics - Tokens"],
   },
   {
     id: 17,
     title: "CoinMarketCap",
     site: "https://coinmarketcap.com/",
     description: "Token prices and tokenomics info",
-    category: ["Analytics"],
+    category: ["Analytics - Tokens"],
   },
   {
     id: 18,
@@ -274,7 +274,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://monitoreth.io/",
     description:
       "A fancy-ass website showing stats on current eth validators and nodes",
-    category: ["Analytics"],
+    category: ["Analytics - Client Diversity", "Analytics - Nodes"],
   },
   {
     id: 40,
@@ -282,7 +282,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://censorship.pics/",
     description:
       "Dashboard that shows how many validators, builders, and relayors are currently censoring",
-    category: ["Analytics"],
+    category: ["Analytics - Censorship"],
   },
   {
     id: 41,
@@ -328,7 +328,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://nftlossharvestooor.com/app",
     description:
       "A site that will allow you to sell NFTs for next to nothing if you'd like to write them off on your taxes. And then if you regret it later, you can buy them back here for the same price: https://sylphdapps.com/nft-repurchasooor/",
-    category: ["Cool Tools"],
+    category: ["Cool tools", "NFTs"],
   },
   {
     id: 47,
@@ -406,11 +406,11 @@ export const allLinks: WebsiteData[] = [
   },
   {
     id: 57,
-    title: "State of Eth",
-    site: "https://stateofeth.com",
+    title: "Ether Alpha",
+    site: "https://etheralpha.org/",
     description:
-      "Next iteration of Eth Sunshine by Hanniabu showing the current state of Ethereum's decentralization through different metrics",
-    category: ["Analytics"],
+      "List of websites from the chad Hanniabu",
+    category: ["Analytics - Client Diversity”, “Analytics - Other"],
   },
   {
     id: 58,
@@ -458,7 +458,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://ethsunshine.com",
     description:
       "Dashboard by Hanniabu showing the current state of Ethereum's decentralization through different metrics",
-    category: ["Analytics"],
+    category: ["Analytics - Client Diversity"],
   },
   {
     id: 64,
@@ -466,7 +466,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.developerreport.com",
     description:
       "They analyze open-source repos to figure out how many crypto developers exist among different ecosystems",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 65,
@@ -555,7 +555,7 @@ export const allLinks: WebsiteData[] = [
     title: "Awesome Ethereum Staking Resources",
     site: "https://hackmd.io/@jyeAs_6oRjeDk2Mx5CZyBw/awesome-ethereum-staking",
     description: "The mother load of staking resources of all kinds",
-    category: ["Education"],
+    category: ["Education - Staking"],
   },
   {
     id: 77,
@@ -579,7 +579,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://mirror.xyz/ethkipu.eth",
     description:
       "Newsletter by ethpiku going over eth staking news. Very comprehensive",
-    category: ["Education - Articles"],
+    category: ["Education - Staking"],
   },
   {
     id: 80,
@@ -595,7 +595,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://txstreet.com",
     description:
       "A freaking amazing way to visualize transactions filling the blocks of Ethereum, Bitcoin, and L2s",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 82,
@@ -603,7 +603,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/21co/stablecoin-monitor",
     description:
       "A dune dashboard by @21co showing the current state and evolution of stablecoins",
-    category: ["Analytics"],
+    category: ["Analytics - Stablecoins"],
   },
   {
     id: 83,
@@ -611,7 +611,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.staking.directory",
     description:
       "Compares and contrasts all of the different services with which to stake Eth",
-    category: ["Education"],
+    category: ["Education - Staking"],
   },
   {
     id: 84,
@@ -619,7 +619,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://relayscan.io",
     description:
       "A dashboard showing the dominance of current block builders and relayers over certain time periods",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 85,
@@ -651,7 +651,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://socketscan.io",
     description:
       "A block explorer focused on bridging. See all your past and pending bridging transactions",
-    category: ["Cool Tools"],
+    category: ["Cool Tools", "Analytics - Bridges"],
   },
   {
     id: 89,
@@ -659,7 +659,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://ethseer.com",
     description:
       "A really cool way to visualize epochs, who proposed each block, attestation health, etc.",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 90,
@@ -667,15 +667,15 @@ export const allLinks: WebsiteData[] = [
     site: "https://marketcapof.com",
     description:
       "Lets you check out what the price of one token would be at the market value of another token. Addictive.",
-    category: ["Analytics"],
+    category: ["Cool Tools"],
   },
   {
     id: 91,
-    title: "EthStaker website",
-    site: "https://ethstaker.cc",
+    title: "Rocket Rescue Node",
+    site: "https://rescuenode.com",
     description:
-      "Website for EthStaker. Treasure trove of home staking resources, and portal to a vibrant community of people willing to help you troubleshoot your issues.",
-    category: ["Education"],
+      "Whip up a fall-back node for your validator",
+    category: ["Cool tools", "Education - Staking"],
   },
   {
     id: 92,
@@ -705,14 +705,14 @@ export const allLinks: WebsiteData[] = [
     title: "Rated Network",
     site: "https://rated.network",
     description: "real time data on beacon chain validators",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes", "Analytics - Client Diversity"],
   },
   {
     id: 96,
     title: "Eth Staker Knowledge Base",
     site: "https://docs.ethstaker.cc/ethstaker-knowledge-base/",
     description: "All the info you could want for Eth staking",
-    category: ["Education"],
+    category: ["Education - Staking"],
   },
   {
     id: 97,
@@ -727,7 +727,7 @@ export const allLinks: WebsiteData[] = [
     title: "Ethereum 2.0 Validator Queue",
     site: "https://validator-queue-monitoring.vercel.app",
     description: "Very simple and useful. Just what the title says.",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes"],
   },
   {
     id: 99,
@@ -735,35 +735,35 @@ export const allLinks: WebsiteData[] = [
     site: "https://wenmerge.com",
     description:
       "Details on validator queue and upcoming forks. Also will notify you when you're about to propose a block.",
-    category: ["Analytics"],
+    category: ["Analytics - Other", "Analytics - Nodes"],
   },
   {
     id: 100,
     title: "Nansen2",
     site: "https://query.nansen.ai/",
     description: "All kinds of real time info on Eth staking",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes"],
   },
   {
     id: 101,
     title: "Eth.store",
     site: "https://beaconcha.in",
     description: "Dashboard on slots, slashings, validators, the mempool, etc",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes"],
   },
   {
     id: 102,
     title: "LIDO Post Merge Protocol APR",
     site: "https://dune.com/LidoAnalytical/lido-execution-layer-rewards",
     description: "Up-to-date info on Lido staking",
-    category: ["Analytics"],
+    category: ["Analytics - LSTs"],
   },
   {
     id: 103,
     title: "Ratio Gang",
     site: "https://ratiogang.com",
     description: "How we're doing on the flippening",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 104,
@@ -778,7 +778,7 @@ export const allLinks: WebsiteData[] = [
     title: "Bitcoin Treasuries",
     site: "https://bitcointreasuries.net",
     description: "Shows how much BTC different companies own",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 106,
@@ -800,14 +800,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.validatorqueue.com/",
     description:
       "Simple and useful information about the Ethereum validator entry/exit queue",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes"],
   },
   {
     id: 109,
     title: "growthepie",
     site: "https://www.growthepie.xyz/",
     description: "Badass site with L2 usage analytics",
-    category: ["Analytics"],
+    category: ["Analytics - L2s"],
   },
   {
     id: 110,
@@ -818,12 +818,20 @@ export const allLinks: WebsiteData[] = [
     category: ["Airdrops"],
   },
   {
+    id: 111,
+    title: "Data Always",
+    site: "https://dataalways.substack.com",
+    description:
+      "Just a varied array of analytics and articles explaining it all. Pretty badass.",
+    category: ["Analytics - Other"],
+  },
+  {
     id: 112,
     title: "Ethereum Execution Client Diversity",
     site: "https://execution-diversity.info",
     description:
       "What the title says. Uses a different method to measure these stats than clientdiversity.org",
-    category: ["Analytics"],
+    category: ["Analytics - Client Diversity"],
   },
   {
     id: 113,
@@ -846,7 +854,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.blockchaincenter.net/en/there-is-no-second-best/",
     description:
       "Shows how rich Michael Saylor would be if he were an Eth maxi instead of a laser eyes",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 116,
@@ -868,7 +876,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://bluechip.org",
     description:
       "A website that thoroughly assesses the riskiness of different stablecoins",
-    category: ["Analytics"],
+    category: ["Analytics - Stablecoins"],
   },
   {
     id: 119,
@@ -884,7 +892,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://sylphdapps.com/validator-queue-status/",
     description:
       "A simple dashboard by mike.sylphdapps.eth showing the validator entry and exit queue",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes"],
   },
   {
     id: 121,
@@ -892,7 +900,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/arixon/mev-burn",
     description:
       "Tracks Eth supply in a hypothetical world where we have MEV burn implemented",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 122,
@@ -907,14 +915,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.reorg.pics",
     description:
       "Analytics on reorgs and missed blocks, broken down with different metrics",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes", "Analytics - Other"],
   },
   {
     id: 124,
     title: "DappRadar",
     site: "https://dappradar.com",
     description: "Dashboard with analytics on different dapps, member curated",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 125,
@@ -930,7 +938,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/niftytable/rollup-economics",
     description:
       "A dashboard by Kofi comparing revenues/costs/ profitability of the different rollups. Also, check out his whole list of Dune dashboards. It's dope.",
-    category: ["Analytics"],
+    category: ["Analytics- L2s"],
   },
   {
     id: 127,
@@ -946,7 +954,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://www.nicenode.xyz",
     description:
       "A user-friendly GUI to make it easier to set up and run a full node on Ubuntu",
-    category: ["Cool Tools"],
+    category: ["Cool Tools", "Education - Staking"],
   },
   {
     id: 129,
@@ -969,7 +977,7 @@ export const allLinks: WebsiteData[] = [
     title: "Ethereum Mempool Dashboard",
     site: "https://mempool.pics/",
     description: "Dashboard of the mempool, demystifying the mystery",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 132,
@@ -993,7 +1001,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://money-movers.info/",
     description:
       "Compare how much value Ethereum and Bitcoin has been settling. Also see the links at the top of the screen for other dope dashboards.",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 135,
@@ -1001,7 +1009,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://l2fees.info/l1-fees",
     description:
       "See how much current L2 gas fees are for swapping tokens and how much L2s are paying Ethereum L1. Also see the links at the top of the screen for other dope dashboards",
-    category: ["Analytics"],
+    category: ["Analytics - L2s"],
   },
   {
     id: 136,
@@ -1009,14 +1017,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://simplestakers.info/",
     description:
       "See current yields different LSTs are earning. Also see the links at the top of the screen for other dope dashboards.",
-    category: ["Analytics"],
+    category: ["Analytics - LSTs"],
   },
   {
     id: 137,
     title: "Ulisse Ethereum network topology explorer",
     site: "https://chainbound.grafana.net/public-dashboards/b39ed764b36548a2a74024eab3de2fe3?orgId=1&refresh=1d",
     description: "Shows on a world map where active Ethereum nodes are",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes"],
   },
   {
     id: 138,
@@ -1024,7 +1032,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://chainspect.app/dashboard/tps",
     description:
       "Dashboard showing current and max TPS metrics of different chains",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 139,
@@ -1069,7 +1077,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://embeds.beehiiv.com/d1453b78-cb4d-4c5b-9359-2d456f5972bf",
     description:
       "A guide to simplify home staking, including becoming your own node operator for protocols that require less than 32 Eth (like Rocketpool and Stader)",
-    category: ["Education"],
+    category: ["Education - Staking"],
   },
   {
     id: 145,
@@ -1085,21 +1093,21 @@ export const allLinks: WebsiteData[] = [
     site: "https://etherclients.com",
     description:
       "The mother of all dashboards for execution client diversity. Lets you search for specific validators",
-    category: ["Analytics"],
+    category: ["Analytics - Client Diversity"],
   },
   {
     id: 147,
     title: "Parsec",
     site: "https://parsec.fi",
     description: "A fancy block explorer/dashboard that spans multiple chains",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 148,
     title: "Ethernow",
     site: "https://ethernow.xyz",
     description: "A dope dashboard by Blocknative showing the current mempool",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 149,
@@ -1115,14 +1123,14 @@ export const allLinks: WebsiteData[] = [
     site: "https://ethernets.io",
     description:
       "A blockchain crawler showing execution layer analytics on full nodes for Ethereum mainnet and testnets",
-    category: ["Analytics"],
+    category: ["Analytics - Nodes", "Analytics - Client Diversity"],
   },
   {
     id: 151,
     title: "Solana Beach",
     site: "https://solanabeach.io",
     description: "A dashboard on Solana transactions, validators, nodes, etc.",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 152,
@@ -1150,16 +1158,329 @@ export const allLinks: WebsiteData[] = [
   },
   {
     id: 155,
-    title: "testingD",
-    site: "www.google.com",
-    description: "Magic crypto site",
-    category: ["Lists"],
+    title: "CryptoMetheus",
+    site: "https://www.primodata.org/blockchain-data",
+    description: "Ranking the leading cryptocurrencies by GitHub development momentum.",
+    category: ["Analytics - Other"],
   },
   {
     id: 156,
-    title: "YouTubeLUNATIC",
-    site: "www.google.com",
-    description: "Magic crypto site",
-    category: ["Lists", "DAO Stuff", "Analytics"],
+    title: "jbudz.xyz",
+    site: "https://jbudz.xyz",
+    description: "A great list kinda like this one, but with different resources",
+    category: ["Lists"],
   },
+  {
+    id: 157,
+    title: "Daily Gwei Links",
+    site: "https://daily-gwei-links.vercel.app/recent",
+    description: "Holy shit, it’s an actual list of all the links from The Daily Gwei YouTube comments!",
+    category: ["Lists"],
+  },
+  {
+    id: 158,
+    title: "EigenLayer Stats",
+    site: "https://restaking.nethermind.io",
+    description: "A dashboard with EigenLayer metrics",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 159,
+    title: "UseWeb3",
+    site: "https://www.useweb3.xyz/",
+    description: "Really cool hub for Ethereum education, taking people from a newb all the way to a dev and then helps them find a job",
+    category: ["Education - Courses"],
+  },
+  {
+    id: 160,
+    title: "RegenLearnings.xyz",
+    site: "https://regenlearnings.xyz",
+    description: "A collaborative effort to post learnings on public goods funding ideas",
+    category: ["Education - Articles"],
+  },
+  {
+    id: 161,
+    title: "Crypto Narratives",
+    site: "https://dune.com/cryptokoryo/narratives",
+    description: "A clever dashboard by CryptoKoryo that devises ways to track the value of crypto narratives over time.",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 162,
+    title: "Timing.pics",
+    site: "https://timing.pics/",
+    description: "A dashboard giving insight into the timing games different node operators are playing with their validators",
+    category: ["Analytics - Nodes"],
+  },
+  {
+    id: 163,
+    title: "Verkle Trees For Statelessness",
+    site: "https://verkle.info/",
+    description: "Just tons of info on verkle trees and the stateless roadmap of Ethereum",
+    category: ["Education - Articles"],
+  },
+  {
+    id: 164,
+    title: "Build Space",
+    site: "https://buildspace.so/",
+    description: "A program that helps you turn your crypto idea into reality, maybe get funding for it, and get to meet a bunch of other builders irl. They even have an irl campus.",
+    category: ["Cool Tools"],
+  },
+  {
+    id: 165,
+    title: "DAO Club",
+    site: "https://daoclub.colony.io/",
+    description: "A free program to help people learn how to DAO. Sort of a club/school/DAO hybrid, started under the Colony umbrella but very DAO-tooling agnostic. Coco (co-creator of this site) has gone through it and cannot recommend it highly enough.",
+    category: ["DAO Stuff", "Education - Courses"],
+  },
+  {
+    id: 166,
+    title: "LearnWeb3",
+    site: "https://learnweb3.io/",
+    description: "A one-stop-shop for learning about crypto, whether you are a beginner or quite advanced. It also helps you get connected in the ecosystem.",
+    category: ["Education - Courses"],
+  },
+  {
+    id: 167,
+    title: "Alchemy University",
+    site: "https://www.alchemy.com/university",
+    description: "Free online crypto courses created by Alchemy",
+    category: ["Education - Courses"],
+  },
+  {
+    id: 168,
+    title: "MetaCrafters",
+    site: "https://www.metacrafters.io/",
+    description: "Learn coding, earn rewards, and get help getting hired",
+    category: ["Education - Courses"],
+  },
+  {
+    id: 169,
+    title: "Impersonator.xyz",
+    site: "https://impersonator.xyz/",
+    description: "Connect to any dapp using anyones address! Freaking neat tool. Cannot initiate txns, obv.",
+    category: ["Cool Tools"],
+  },
+  {
+    id: 170,
+    title: "Copilot",
+    site: "https://nftcopilot.com/airdrop-farming",
+    description: "A tool to help you check potential airdrop metrics for your wallets on different L2s",
+    category: ["Airdrops"],
+  },
+  {
+    id: 171,
+    title: "Pixelhack's Farcaster Dashboard",
+    site: "https://dune.com/pixelhack/farcaster",
+    description: "A Dune dashboard from @pixelhack showing growth metrics for Farcaster",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 172,
+    title: "Ethereum Roadmap",
+    site: "https://ethereumroadmap.com/",
+    description: "Shows Vitalik’s latest update on the eth roadmap",
+    category: ["Education"],
+  },
+  {
+    id: 173,
+    title: "Eth Roadmap",
+    site: "https://ethroadmap.com/",
+    description: "An incredibly detailed website showing past forks and EIPs as well as future forks and potential EIPs, complete with predictions and deep rabbit holes about each one. You could get lost here.",
+    category: ["Education"],
+  },
+  {
+    id: 174,
+    title: "MEV Explore V1",
+    site: "https://explore.flashbots.net/",
+    description: "A very detailed dashboard showing MEV data",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 175,
+    title: "Ethereum Ecosystem",
+    site: "https://www.ethereum-ecosystem.com",
+    description: "Massive aggregator of dapps, browseable and broken down into categories and which blockchains they are on. Kinda what this website does, but for apps.",
+    category: ["Lists"],
+  },
+  {
+    id: 176,
+    title: "Flipside",
+    site: "https://flipsidecrypto.xyz/",
+    description: "Kinda like Dune. Different people create different dashboards for interesting onchain data.",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 177,
+    title: "CryptoArt",
+    site: "https://cryptoart.io",
+    description: "A website dedicated to showcasing the most expensive NFTs and the most successful NFT artists. Uses Dune in the background and has a link to the dashboard.",
+    category: ["NFTs"],
+  },
+  {
+    id: 178,
+    title: "The Daily Gwei",
+    site: "https://www.youtube.com/@TheDailyGwei",
+    description: "The podcast that spawned this website. Sassal goes deep into the Ethereum weeds, and the pod is really just for people who already live in said weeds. Not normie friendly, but you also don’t need to be a dev to follow along. He references so many dashboards, we needed a website to keep up with them.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 179,
+    title: "Bankless",
+    site: "https://www.youtube.com/@Bankless",
+    description: "Normie-friendly, highly Eth aligned, great interviews.  They get the big guests, teams announce airdrops here, it’s where the stuff happens…A great podcast for anyone to learn, no matter their knowledge level.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 180,
+    title: "Empire",
+    site: "https://www.youtube.com/@empirepod",
+    description: "Sorta like Bankless, but less normie-friendly and a little more finance focused, but also focused on the tech.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 181,
+    title: "The Bell Curve",
+    site: "https://www.youtube.com/@bellcurvepodcast",
+    description: "Very intellectual. Round-table style, but otherwise you can think of this as the financed-focused version of The Daily Gwei. Quite in the weeds, not mornie-friendly.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 182,
+    title: "Web3 Builders",
+    site: "https://www.youtube.com/@web3builderspod",
+    description: "A deep in-the-weeds podcast hosted by a dev about mostly Ethereum stuff. Big brained.  Sometimes goes a while without recording an episode, but usually great content.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 183,
+    title: "Wholesome Crypto",
+    site: "https://www.youtube.com/@wholesomecrypto",
+    description: "A podcast that gets a little more personal in the lives of prominent crypto people. You can get some alpha here, but it’s also cool just to learn about the people behind the avatars.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 184,
+    title: "Ethfinance Doots Happy Hour",
+    site: "https://www.youtube.com/@evmavericks",
+    description: "A weekly podcast put on by the EVMavericks and the Ethfinance subreddit. JT reads the top reddit posts of the week, and the Mavericks comment. Usually there’s a special guest each week who talks about their project and gets grilled with questions. Heavy hitters, major weeds but also can be normie-friendly, and great perspectives.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 185,
+    title: "The Defiant",
+    site: "https://www.youtube.com/@TheDefiant",
+    description: "Similar to Bankless, the Defiant covers crypto news, hosts interviews, and has some nice explainers about different crypto topics.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 186,
+    title: "Unchained",
+    site: "https://www.youtube.com/@UnchainedCrypto",
+    description: "A podcast created by a journalist who got sucked down the crypto rabbit hole.  Less Ethereum focused and more generally crypto focused.",
+    category: ["Podcasts"],
+  },
+  {
+    id: 187,
+    title: "Colony",
+    site: "https://www.youtube.com/@JoinColony",
+    description: "An amalgamation of videos put out by Colony core members. Some are about how to start a DAO, some are about how to code in Solidity.  It always seems to be very interesting content, and usually DAO-focused.",
+    category: ["Podcasts", "DAO Stuff"],
+  },
+  {
+    id: 188,
+    title: "Just DAO It",
+    site: "https://www.youtube.com/@midao",
+    description: "A podcast about DAO formation, put on by Midao, which is a project that helps DAOs navigate meatspace laws. Deep in the weeds on DAOs.",
+    category: ["Podcasts", "DAO Stuff"],
+  },
+  {
+    id: 189,
+    title: "Why Are We Here?",
+    site: "https://www.youtube.com/watch?v=2XlYSmIlpfs",
+    description: "A video of Erik Voorhees’ speech at Permissionless (2023) explaining why we are building crypto from a very first principles and very cypherpunk perspective. Some views may seem extreme, but it’s a good way to get grounded in the OG philosophy and reexamine some of your beliefs. (We know, it’s not something to read, but this seemed like the best category for it.)",
+    category: ["Fundamental Crypto Reading"],
+  },
+  {
+    id: 190,
+    title: "A Cypherpunk's Manifesto",
+    site: "https://nakamotoinstitute.org/cypherpunk-manifesto/",
+    description: "A short manifesto of cypherpunk ideals, cypherpunks being the group that birthed crypto. This is foundational.",
+    category: ["Fundamental Crypto Reading"],
+  },
+  {
+    id: 191,
+    title: "Harvest.art",
+    site: "https://harvest.art",
+    description: "A site where you can sell any NFT for 1 gwei in order to tax harvest. You can also buy any NFT that others have dumped here.",
+    category: ["Cool Tools”, “NFTs"],
+  },
+  {
+    id: 192,
+    title: "Solana Airdrop Checker",
+    site: "https://solana-airdrop-checker.solworks.dev/",
+    description: "Check your Solana airdrops",
+    category: ["Airdrops"],
+  },
+  {
+    id: 193,
+    title: "Solana Status",
+    site: "https://status.solana.com",
+    description: "Clean dashboard that shows uptime and issues for the Solana ecosystem",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 194,
+    title: "EigenLayer Ecosystem Metrics | The Ultimate Dashboard",
+    site: "https://dune.com/hahahash/eigenlayer",
+    description: "A dashboard with EigenLayer metrics, including airdrop potential",
+    category: ["Analytics - Other”, “Airdrops"],
+  },
+  {
+    id: 195,
+    title: "Gas High Don’t Cry",
+    site: "https://gashighdontcry.net",
+    description: "A dashboard showing how much different types of transactions cost on L1 vs L2s. As of now there’s only L1 and Arbitrum One, but there are plans to expand to the other L2s.",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 196,
+    title: "Jason Schwartz",
+    site: "https://www.friedfrank.com/our-people/jason-schwartz",
+    description: "Jason Schwartz (aka CryptoTaxGuy)’s website linking to all of his articles on crypto taxation. This dude is on the forefront of this area.",
+    category: ["Analytics - Articles"],
+  },
+  {
+    id: 197,
+    title: "Token Terminal",
+    site: "https://tokenterminal.com/",
+    description: "Supposed to be a great site for onchain data, but it’s paywalled so fuck if we know",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 198,
+    title: "Kiwi Stand",
+    site: "https://news.kiwistand.com/",
+    description: "A user-curated news feed of crypto",
+    category: ["Education - Articles"],
+  },
+  {
+    id: 199,
+    title: "Infinite Market Cap",
+    site: "https://8marketcap.com/#google_vignette",
+    description: "Compare the market cap of different things",
+    category: ["Analytics - Other"],
+  },
+  {
+    id: 200,
+    title: "Garden of Things",
+    site: "https://gardenofthings.com/g/eth-supply",
+    description: "Map of ETH Supply by ETH Wave, interactive sankey diagram showing ETH on: L2, Staked, Lost and more.",
+    category: ["Analytics - Other"],
+  },
+
+
+
+
+
 ];
