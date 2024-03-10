@@ -58,7 +58,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/hildobby",
     description:
       "Dope ass Dune analytics creator - just a bunch of data about Ethereum",
-    category: ["Analytics - Other”, “Analytics - LSTs"],
+    category: ["Analytics - Other", "Analytics - LSTs"],
   },
   {
     id: 9,
@@ -328,7 +328,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://nftlossharvestooor.com/app",
     description:
       "A site that will allow you to sell NFTs for next to nothing if you'd like to write them off on your taxes. And then if you regret it later, you can buy them back here for the same price: https://sylphdapps.com/nft-repurchasooor/",
-    category: ["Cool tools", "NFTs"],
+    category: ["Cool Tools", "NFTs"],
   },
   {
     id: 47,
@@ -388,7 +388,7 @@ export const allLinks: WebsiteData[] = [
     title: "Token Unlocks",
     site: "https://token.unlocks.app/?category=all",
     description: "Shows unlock schedules for different tokens",
-    category: ["Analytics"],
+    category: ["Analytics - Other"],
   },
   {
     id: 55,
@@ -410,7 +410,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://etheralpha.org/",
     description:
       "List of websites from the chad Hanniabu",
-    category: ["Analytics - Client Diversity”, “Analytics - Other"],
+    category: ["Analytics - Client Diversity", "Analytics - Other"],
   },
   {
     id: 58,
@@ -675,7 +675,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://rescuenode.com",
     description:
       "Whip up a fall-back node for your validator",
-    category: ["Cool tools", "Education - Staking"],
+    category: ["Cool Tools", "Education - Staking"],
   },
   {
     id: 92,
@@ -1413,7 +1413,7 @@ export const allLinks: WebsiteData[] = [
     title: "Harvest.art",
     site: "https://harvest.art",
     description: "A site where you can sell any NFT for 1 gwei in order to tax harvest. You can also buy any NFT that others have dumped here.",
-    category: ["Cool Tools”, “NFTs"],
+    category: ["Cool Tools", "NFTs"],
   },
   {
     id: 192,
@@ -1434,7 +1434,7 @@ export const allLinks: WebsiteData[] = [
     title: "EigenLayer Ecosystem Metrics | The Ultimate Dashboard",
     site: "https://dune.com/hahahash/eigenlayer",
     description: "A dashboard with EigenLayer metrics, including airdrop potential",
-    category: ["Analytics - Other”, “Airdrops"],
+    category: ["Analytics - Other", "Airdrops"],
   },
   {
     id: 195,
