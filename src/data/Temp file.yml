@@ -328,7 +328,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://nftlossharvestooor.com/app",
     description:
       "A site that will allow you to sell NFTs for next to nothing if you'd like to write them off on your taxes. And then if you regret it later, you can buy them back here for the same price: https://sylphdapps.com/nft-repurchasooor/",
-    category: ["Cool tools", "NFTs"],
+    category: ["Cool Tools", "NFTs"],
   },
   {
     id: 47,
@@ -675,7 +675,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://rescuenode.com",
     description:
       "Whip up a fall-back node for your validator",
-    category: ["Cool tools", "Education - Staking"],
+    category: ["Cool Tools", "Education - Staking"],
   },
   {
     id: 92,
@@ -1448,7 +1448,7 @@ export const allLinks: WebsiteData[] = [
     title: "Jason Schwartz",
     site: "https://www.friedfrank.com/our-people/jason-schwartz",
     description: "Jason Schwartz (aka CryptoTaxGuy)’s website linking to all of his articles on crypto taxation. This dude is on the forefront of this area.",
-    category: ["Education - Articles"],
+    category: ["Analytics - Articles"],
   },
   {
     id: 197,
