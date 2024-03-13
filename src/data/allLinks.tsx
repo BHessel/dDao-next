@@ -767,7 +767,7 @@ export const allLinks: WebsiteData[] = [
   },
   {
     id: 104,
-    title: "Blobspace",
+    title: "Blobspace 101",
     site: "https://domothy.com/blobspace/",
     description:
       "Banger explainer by Domothy on EIP 4844 i.e. protodanksharding",

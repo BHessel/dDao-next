@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,8 +14,16 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.dosis {
+  font-family: "Dosis";
+}
+
 @media (max-width: 440px) {
   #menu {
     padding-top: 32px;
   }
 }
+/* 
+.bg-transparent-to-white {
+  background-image: linear-gradient(to bottom, transparent 65%, white 35%);
+} */
