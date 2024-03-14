@@ -21,15 +21,15 @@ export default function SearchField({ onSearchChange }: SearchFieldProps) {
           type="text"
           placeholder="Search"
           value={inputValue}
-          onChange={handleChange} // Use the handleChange function here
+          onChange={handleChange}
           className="h-10 w-full shadow-md placeholder:pl-4 placeholder:text-slate-500 rounded-lg peer placeholder:text-transparent outline-none pl-4"
         />
         <label
-          className={`absolute left-4 px-1 translate-y-2 bg-transparent text-sm duration-100 ease-linear ${
+          className={`absolute left-4 px-1 bg-transparent text-sm duration-100 ease-linear ${
             inputValue
-              ? "text-slate-700 -translate-y-5 peer-focus:-translate-y-5"
-              : "peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-4 peer-focus:-translate-y-5 peer-focus:px-1 peer-focus:text-sm peer-focus:text-slate-700"
-          }`}
+              ? "text-slate-700 -translate-y-5"
+              : "translate-y-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500"
+          } peer-focus:-translate-y-5 peer-focus:px-1 peer-focus:text-sm peer-focus:text-slate-700`}
         >
           Search...
         </label>
