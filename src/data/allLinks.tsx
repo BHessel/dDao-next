@@ -408,8 +408,7 @@ export const allLinks: WebsiteData[] = [
     id: 57,
     title: "Ether Alpha",
     site: "https://etheralpha.org/",
-    description:
-      "List of websites from the chad Hanniabu",
+    description: "List of websites from the chad Hanniabu",
     category: ["Analytics - Client Diversity", "Analytics - Other"],
   },
   {
@@ -673,8 +672,7 @@ export const allLinks: WebsiteData[] = [
     id: 91,
     title: "Rocket Rescue Node",
     site: "https://rescuenode.com",
-    description:
-      "Whip up a fall-back node for your validator",
+    description: "Whip up a fall-back node for your validator",
     category: ["Cool tools", "Education - Staking"],
   },
   {
@@ -1160,21 +1158,24 @@ export const allLinks: WebsiteData[] = [
     id: 155,
     title: "CryptoMetheus",
     site: "https://www.primodata.org/blockchain-data",
-    description: "Ranking the leading cryptocurrencies by GitHub development momentum.",
+    description:
+      "Ranking the leading cryptocurrencies by GitHub development momentum.",
     category: ["Analytics - Other"],
   },
   {
     id: 156,
     title: "jbudz.xyz",
     site: "https://jbudz.xyz",
-    description: "A great list kinda like this one, but with different resources",
+    description:
+      "A great list kinda like this one, but with different resources",
     category: ["Lists"],
   },
   {
     id: 157,
     title: "Daily Gwei Links",
     site: "https://daily-gwei-links.vercel.app/recent",
-    description: "Holy shit, it’s an actual list of all the links from The Daily Gwei YouTube comments!",
+    description:
+      "Holy shit, it’s an actual list of all the links from The Daily Gwei YouTube comments!",
     category: ["Lists"],
   },
   {
@@ -1188,56 +1189,64 @@ export const allLinks: WebsiteData[] = [
     id: 159,
     title: "UseWeb3",
     site: "https://www.useweb3.xyz/",
-    description: "Really cool hub for Ethereum education, taking people from a newb all the way to a dev and then helps them find a job",
+    description:
+      "Really cool hub for Ethereum education, taking people from a newb all the way to a dev and then helps them find a job",
     category: ["Education - Courses"],
   },
   {
     id: 160,
     title: "RegenLearnings.xyz",
     site: "https://regenlearnings.xyz",
-    description: "A collaborative effort to post learnings on public goods funding ideas",
+    description:
+      "A collaborative effort to post learnings on public goods funding ideas",
     category: ["Education - Articles"],
   },
   {
     id: 161,
     title: "Crypto Narratives",
     site: "https://dune.com/cryptokoryo/narratives",
-    description: "A clever dashboard by CryptoKoryo that devises ways to track the value of crypto narratives over time.",
+    description:
+      "A clever dashboard by CryptoKoryo that devises ways to track the value of crypto narratives over time.",
     category: ["Analytics - Other"],
   },
   {
     id: 162,
     title: "Timing.pics",
     site: "https://timing.pics/",
-    description: "A dashboard giving insight into the timing games different node operators are playing with their validators",
+    description:
+      "A dashboard giving insight into the timing games different node operators are playing with their validators",
     category: ["Analytics - Nodes"],
   },
   {
     id: 163,
     title: "Verkle Trees For Statelessness",
     site: "https://verkle.info/",
-    description: "Just tons of info on verkle trees and the stateless roadmap of Ethereum",
+    description:
+      "Just tons of info on verkle trees and the stateless roadmap of Ethereum",
     category: ["Education - Articles"],
   },
   {
     id: 164,
     title: "Build Space",
     site: "https://buildspace.so/",
-    description: "A program that helps you turn your crypto idea into reality, maybe get funding for it, and get to meet a bunch of other builders irl. They even have an irl campus.",
+    description:
+      "A program that helps you turn your crypto idea into reality, maybe get funding for it, and get to meet a bunch of other builders irl. They even have an irl campus.",
     category: ["Cool Tools"],
   },
   {
     id: 165,
     title: "DAO Club",
     site: "https://daoclub.colony.io/",
-    description: "A free program to help people learn how to DAO. Sort of a club/school/DAO hybrid, started under the Colony umbrella but very DAO-tooling agnostic. Coco (co-creator of this site) has gone through it and cannot recommend it highly enough.",
+    description:
+      "A free program to help people learn how to DAO. Sort of a club/school/DAO hybrid, started under the Colony umbrella but very DAO-tooling agnostic. Coco (co-creator of this site) has gone through it and cannot recommend it highly enough.",
     category: ["DAO Stuff", "Education - Courses"],
   },
   {
     id: 166,
     title: "LearnWeb3",
     site: "https://learnweb3.io/",
-    description: "A one-stop-shop for learning about crypto, whether you are a beginner or quite advanced. It also helps you get connected in the ecosystem.",
+    description:
+      "A one-stop-shop for learning about crypto, whether you are a beginner or quite advanced. It also helps you get connected in the ecosystem.",
     category: ["Education - Courses"],
   },
   {
@@ -1258,21 +1267,24 @@ export const allLinks: WebsiteData[] = [
     id: 169,
     title: "Impersonator.xyz",
     site: "https://impersonator.xyz/",
-    description: "Connect to any dapp using anyones address! Freaking neat tool. Cannot initiate txns, obv.",
+    description:
+      "Connect to any dapp using anyones address! Freaking neat tool. Cannot initiate txns, obv.",
     category: ["Cool Tools"],
   },
   {
     id: 170,
     title: "Copilot",
     site: "https://nftcopilot.com/airdrop-farming",
-    description: "A tool to help you check potential airdrop metrics for your wallets on different L2s",
+    description:
+      "A tool to help you check potential airdrop metrics for your wallets on different L2s",
     category: ["Airdrops"],
   },
   {
     id: 171,
     title: "Pixelhack's Farcaster Dashboard",
     site: "https://dune.com/pixelhack/farcaster",
-    description: "A Dune dashboard from @pixelhack showing growth metrics for Farcaster",
+    description:
+      "A Dune dashboard from @pixelhack showing growth metrics for Farcaster",
     category: ["Analytics - Other"],
   },
   {
@@ -1286,7 +1298,8 @@ export const allLinks: WebsiteData[] = [
     id: 173,
     title: "Eth Roadmap",
     site: "https://ethroadmap.com/",
-    description: "An incredibly detailed website showing past forks and EIPs as well as future forks and potential EIPs, complete with predictions and deep rabbit holes about each one. You could get lost here.",
+    description:
+      "An incredibly detailed website showing past forks and EIPs as well as future forks and potential EIPs, complete with predictions and deep rabbit holes about each one. You could get lost here.",
     category: ["Education"],
   },
   {
@@ -1300,119 +1313,136 @@ export const allLinks: WebsiteData[] = [
     id: 175,
     title: "Ethereum Ecosystem",
     site: "https://www.ethereum-ecosystem.com",
-    description: "Massive aggregator of dapps, browseable and broken down into categories and which blockchains they are on. Kinda what this website does, but for apps.",
+    description:
+      "Massive aggregator of dapps, browseable and broken down into categories and which blockchains they are on. Kinda what this website does, but for apps.",
     category: ["Lists"],
   },
   {
     id: 176,
     title: "Flipside",
     site: "https://flipsidecrypto.xyz/",
-    description: "Kinda like Dune. Different people create different dashboards for interesting onchain data.",
+    description:
+      "Kinda like Dune. Different people create different dashboards for interesting onchain data.",
     category: ["Analytics - Other"],
   },
   {
     id: 177,
     title: "CryptoArt",
     site: "https://cryptoart.io",
-    description: "A website dedicated to showcasing the most expensive NFTs and the most successful NFT artists. Uses Dune in the background and has a link to the dashboard.",
+    description:
+      "A website dedicated to showcasing the most expensive NFTs and the most successful NFT artists. Uses Dune in the background and has a link to the dashboard.",
     category: ["NFTs"],
   },
   {
     id: 178,
     title: "The Daily Gwei",
     site: "https://www.youtube.com/@TheDailyGwei",
-    description: "The podcast that spawned this website. Sassal goes deep into the Ethereum weeds, and the pod is really just for people who already live in said weeds. Not normie friendly, but you also don’t need to be a dev to follow along. He references so many dashboards, we needed a website to keep up with them.",
+    description:
+      "The podcast that spawned this website. Sassal goes deep into the Ethereum weeds, and the pod is really just for people who already live in said weeds. Not normie friendly, but you also don’t need to be a dev to follow along. He references so many dashboards, we needed a website to keep up with them.",
     category: ["Podcasts"],
   },
   {
     id: 179,
     title: "Bankless",
     site: "https://www.youtube.com/@Bankless",
-    description: "Normie-friendly, highly Eth aligned, great interviews.  They get the big guests, teams announce airdrops here, it’s where the stuff happens…A great podcast for anyone to learn, no matter their knowledge level.",
+    description:
+      "Normie-friendly, highly Eth aligned, great interviews.  They get the big guests, teams announce airdrops here, it’s where the stuff happens…A great podcast for anyone to learn, no matter their knowledge level.",
     category: ["Podcasts"],
   },
   {
     id: 180,
     title: "Empire",
     site: "https://www.youtube.com/@empirepod",
-    description: "Sorta like Bankless, but less normie-friendly and a little more finance focused, but also focused on the tech.",
+    description:
+      "Sorta like Bankless, but less normie-friendly and a little more finance focused, but also focused on the tech.",
     category: ["Podcasts"],
   },
   {
     id: 181,
     title: "The Bell Curve",
     site: "https://www.youtube.com/@bellcurvepodcast",
-    description: "Very intellectual. Round-table style, but otherwise you can think of this as the financed-focused version of The Daily Gwei. Quite in the weeds, not mornie-friendly.",
+    description:
+      "Very intellectual. Round-table style, but otherwise you can think of this as the financed-focused version of The Daily Gwei. Quite in the weeds, not mornie-friendly.",
     category: ["Podcasts"],
   },
   {
     id: 182,
     title: "Web3 Builders",
     site: "https://www.youtube.com/@web3builderspod",
-    description: "A deep in-the-weeds podcast hosted by a dev about mostly Ethereum stuff. Big brained.  Sometimes goes a while without recording an episode, but usually great content.",
+    description:
+      "A deep in-the-weeds podcast hosted by a dev about mostly Ethereum stuff. Big brained.  Sometimes goes a while without recording an episode, but usually great content.",
     category: ["Podcasts"],
   },
   {
     id: 183,
     title: "Wholesome Crypto",
     site: "https://www.youtube.com/@wholesomecrypto",
-    description: "A podcast that gets a little more personal in the lives of prominent crypto people. You can get some alpha here, but it’s also cool just to learn about the people behind the avatars.",
+    description:
+      "A podcast that gets a little more personal in the lives of prominent crypto people. You can get some alpha here, but it’s also cool just to learn about the people behind the avatars.",
     category: ["Podcasts"],
   },
   {
     id: 184,
     title: "Ethfinance Doots Happy Hour",
     site: "https://www.youtube.com/@evmavericks",
-    description: "A weekly podcast put on by the EVMavericks and the Ethfinance subreddit. JT reads the top reddit posts of the week, and the Mavericks comment. Usually there’s a special guest each week who talks about their project and gets grilled with questions. Heavy hitters, major weeds but also can be normie-friendly, and great perspectives.",
+    description:
+      "A weekly podcast put on by the EVMavericks and the Ethfinance subreddit. JT reads the top reddit posts of the week, and the Mavericks comment. Usually there’s a special guest each week who talks about their project and gets grilled with questions. Heavy hitters, major weeds but also can be normie-friendly, and great perspectives.",
     category: ["Podcasts"],
   },
   {
     id: 185,
     title: "The Defiant",
     site: "https://www.youtube.com/@TheDefiant",
-    description: "Similar to Bankless, the Defiant covers crypto news, hosts interviews, and has some nice explainers about different crypto topics.",
+    description:
+      "Similar to Bankless, the Defiant covers crypto news, hosts interviews, and has some nice explainers about different crypto topics.",
     category: ["Podcasts"],
   },
   {
     id: 186,
     title: "Unchained",
     site: "https://www.youtube.com/@UnchainedCrypto",
-    description: "A podcast created by a journalist who got sucked down the crypto rabbit hole.  Less Ethereum focused and more generally crypto focused.",
+    description:
+      "A podcast created by a journalist who got sucked down the crypto rabbit hole.  Less Ethereum focused and more generally crypto focused.",
     category: ["Podcasts"],
   },
   {
     id: 187,
     title: "Colony",
     site: "https://www.youtube.com/@JoinColony",
-    description: "An amalgamation of videos put out by Colony core members. Some are about how to start a DAO, some are about how to code in Solidity.  It always seems to be very interesting content, and usually DAO-focused.",
+    description:
+      "An amalgamation of videos put out by Colony core members. Some are about how to start a DAO, some are about how to code in Solidity.  It always seems to be very interesting content, and usually DAO-focused.",
     category: ["Podcasts", "DAO Stuff"],
   },
   {
     id: 188,
     title: "Just DAO It",
     site: "https://www.youtube.com/@midao",
-    description: "A podcast about DAO formation, put on by Midao, which is a project that helps DAOs navigate meatspace laws. Deep in the weeds on DAOs.",
+    description:
+      "A podcast about DAO formation, put on by Midao, which is a project that helps DAOs navigate meatspace laws. Deep in the weeds on DAOs.",
     category: ["Podcasts", "DAO Stuff"],
   },
   {
     id: 189,
     title: "Why Are We Here?",
     site: "https://www.youtube.com/watch?v=2XlYSmIlpfs",
-    description: "A video of Erik Voorhees’ speech at Permissionless (2023) explaining why we are building crypto from a very first principles and very cypherpunk perspective. Some views may seem extreme, but it’s a good way to get grounded in the OG philosophy and reexamine some of your beliefs. (We know, it’s not something to read, but this seemed like the best category for it.)",
+    description:
+      "A video of Erik Voorhees’ speech at Permissionless (2023) explaining why we are building crypto from a very first principles and very cypherpunk perspective. Some views may seem extreme, but it’s a good way to get grounded in the OG philosophy and reexamine some of your beliefs. (We know, it’s not something to read, but this seemed like the best category for it.)",
     category: ["Fundamental Crypto Reading"],
   },
   {
     id: 190,
     title: "A Cypherpunk's Manifesto",
     site: "https://nakamotoinstitute.org/cypherpunk-manifesto/",
-    description: "A short manifesto of cypherpunk ideals, cypherpunks being the group that birthed crypto. This is foundational.",
+    description:
+      "A short manifesto of cypherpunk ideals, cypherpunks being the group that birthed crypto. This is foundational.",
     category: ["Fundamental Crypto Reading"],
   },
   {
     id: 191,
     title: "Harvest.art",
     site: "https://harvest.art",
-    description: "A site where you can sell any NFT for 1 gwei in order to tax harvest. You can also buy any NFT that others have dumped here.",
+    description:
+      "A site where you can sell any NFT for 1 gwei in order to tax harvest. You can also buy any NFT that others have dumped here.",
     category: ["Cool Tools", "NFTs"],
   },
   {
@@ -1426,35 +1456,40 @@ export const allLinks: WebsiteData[] = [
     id: 193,
     title: "Solana Status",
     site: "https://status.solana.com",
-    description: "Clean dashboard that shows uptime and issues for the Solana ecosystem",
+    description:
+      "Clean dashboard that shows uptime and issues for the Solana ecosystem",
     category: ["Analytics - Other"],
   },
   {
     id: 194,
     title: "EigenLayer Ecosystem Metrics | The Ultimate Dashboard",
     site: "https://dune.com/hahahash/eigenlayer",
-    description: "A dashboard with EigenLayer metrics, including airdrop potential",
+    description:
+      "A dashboard with EigenLayer metrics, including airdrop potential",
     category: ["Analytics - Other", "Airdrops"],
   },
   {
     id: 195,
     title: "Gas High Don’t Cry",
     site: "https://gashighdontcry.net",
-    description: "A dashboard showing how much different types of transactions cost on L1 vs L2s. As of now there’s only L1 and Arbitrum One, but there are plans to expand to the other L2s.",
+    description:
+      "A dashboard showing how much different types of transactions cost on L1 vs L2s. As of now there’s only L1 and Arbitrum One, but there are plans to expand to the other L2s.",
     category: ["Analytics - Other"],
   },
   {
     id: 196,
     title: "Jason Schwartz",
     site: "https://www.friedfrank.com/our-people/jason-schwartz",
-    description: "Jason Schwartz (aka CryptoTaxGuy)’s website linking to all of his articles on crypto taxation. This dude is on the forefront of this area.",
+    description:
+      "Jason Schwartz (aka CryptoTaxGuy)’s website linking to all of his articles on crypto taxation. This dude is on the forefront of this area.",
     category: ["Education - Articles"],
   },
   {
     id: 197,
     title: "Token Terminal",
     site: "https://tokenterminal.com/",
-    description: "Supposed to be a great site for onchain data, but it’s paywalled so fuck if we know",
+    description:
+      "Supposed to be a great site for onchain data, but it’s paywalled so fuck if we know",
     category: ["Analytics - Other"],
   },
   {
@@ -1475,12 +1510,8 @@ export const allLinks: WebsiteData[] = [
     id: 200,
     title: "Garden of Things",
     site: "https://gardenofthings.com/g/eth-supply",
-    description: "Map of ETH Supply by ETH Wave, interactive sankey diagram showing ETH on: L2, Staked, Lost and more.",
+    description:
+      "Map of ETH Supply by ETH Wave, interactive sankey diagram showing ETH on: L2, Staked, Lost and more.",
     category: ["Analytics - Other"],
   },
-
-
-
-
-
 ];
