@@ -328,7 +328,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://nftlossharvestooor.com/app",
     description:
       "A site that will allow you to sell NFTs for next to nothing if you'd like to write them off on your taxes. And then if you regret it later, you can buy them back here for the same price: https://sylphdapps.com/nft-repurchasooor/",
-    category: ["Cool tools", "NFTs"],
+    category: ["Cool Tools", "NFTs"],
   },
   {
     id: 47,
@@ -677,7 +677,7 @@ export const allLinks: WebsiteData[] = [
     title: "Rocket Rescue Node",
     site: "https://rescuenode.com",
     description: "Whip up a fall-back node for your validator",
-    category: ["Cool tools", "Education - Staking"],
+    category: ["Cool Tools", "Education - Staking"],
   },
   {
     id: 92,
@@ -940,7 +940,7 @@ export const allLinks: WebsiteData[] = [
     site: "https://dune.com/niftytable/rollup-economics",
     description:
       "A dashboard by Kofi comparing revenues/costs/ profitability of the different rollups. Also, check out his whole list of Dune dashboards. It's dope.",
-    category: ["Analytics- L2s"],
+    category: ["Analytics - L2s"],
   },
   {
     id: 127,
@@ -1556,5 +1556,13 @@ export const allLinks: WebsiteData[] = [
     description:
       "Another website to check your potential airdrop standing on different protocols",
     category: ["Airdrops"],
+  },
+  {
+    id: 206,
+    title: "$DUDE: A dude-to-dude electronic cash system",
+    site: "https://mirror.xyz/dvdsmfer.eth/TKB8UiC_6bFqZ3G04hbP1MlJvJpiQXTEgNsftrXoQbc",
+    description:
+      "Whitepaper, Dexscreener link, and initial distribution data for $DUDE",
+    category: ["Analytics - Other"],
   },
 ];
